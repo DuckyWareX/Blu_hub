@@ -1,7 +1,3 @@
--- NOTE: THIS FILE IS TOO BIG TO FIT IN ONE SCRIPT SO IT IS SPLIT UP IN THIS FOLDER, COPY EACH SCRIPT AFTER ANOTHER TO FORM THE FULL SCRIPT (EX: Split_1, then Split_2, then Split_3, etc.)-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
-
--- Instances:
-
 local Converted = {
 	["_Sirius"] = Instance.new("ScreenGui");
 	["_SmartBar"] = Instance.new("Frame");
@@ -569,7 +565,7 @@ local Converted = {
 	["_UIListLayout10"] = Instance.new("UIListLayout");
 }
 
--- Properties:
+
 
 Converted["_Sirius"].DisplayOrder = 100
 Converted["_Sirius"].IgnoreGuiInset = true
@@ -3851,3 +3847,2390 @@ Converted["_Subtitle10"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Subtitle10"].BackgroundTransparency = 1
 Converted["_Subtitle10"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
 Converted["_Subtitle10"].BorderSizePix
+el = 0
+Converted["_Subtitle10"].Position = UDim2.new(0, 82, 0, 82)
+Converted["_Subtitle10"].Size = UDim2.new(0, 635, 0, 17)
+Converted["_Subtitle10"].Name = "Subtitle"
+Converted["_Subtitle10"].Parent = Converted["_Home1"]
+
+Converted["_Toasts"].AnchorPoint = Vector2.new(0.5, 1)
+Converted["_Toasts"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toasts"].BackgroundTransparency = 1
+Converted["_Toasts"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Toasts"].BorderSizePixel = 0
+Converted["_Toasts"].ClipsDescendants = true
+Converted["_Toasts"].Position = UDim2.new(0.5, 0, 1, -110)
+Converted["_Toasts"].Size = UDim2.new(0, 580, 0, 220)
+Converted["_Toasts"].ZIndex = 100
+Converted["_Toasts"].Name = "Toasts"
+Converted["_Toasts"].Parent = Converted["_Sirius"]
+
+Converted["_UIListLayout5"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout5"].VerticalAlignment = Enum.VerticalAlignment.Bottom
+Converted["_UIListLayout5"].Parent = Converted["_Toasts"]
+
+Converted["_Template6"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Template6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Template6"].BackgroundTransparency = 1
+Converted["_Template6"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template6"].BorderSizePixel = 0
+Converted["_Template6"].Position = UDim2.new(0.5, 0, 0.930000007, 0)
+Converted["_Template6"].Size = UDim2.new(1, 0, 0, 32)
+Converted["_Template6"].Visible = false
+Converted["_Template6"].ZIndex = 100
+Converted["_Template6"].Name = "Template"
+Converted["_Template6"].Parent = Converted["_Toasts"]
+
+Converted["_Title28"].Font = Enum.Font.Unknown
+Converted["_Title28"].Text = "Toast"
+Converted["_Title28"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title28"].TextScaled = true
+Converted["_Title28"].TextSize = 16
+Converted["_Title28"].TextStrokeTransparency = 0.8999999761581421
+Converted["_Title28"].TextWrapped = true
+Converted["_Title28"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Title28"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title28"].BackgroundTransparency = 1
+Converted["_Title28"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title28"].BorderSizePixel = 0
+Converted["_Title28"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Title28"].Size = UDim2.new(1, 0, 0, 16)
+Converted["_Title28"].ZIndex = 105
+Converted["_Title28"].Name = "Title"
+Converted["_Title28"].Parent = Converted["_Template6"]
+
+Converted["_Disconnected"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Disconnected"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Disconnected"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Disconnected"].BorderSizePixel = 0
+Converted["_Disconnected"].Position = UDim2.new(0.5, 0, 0.325021535, 0)
+Converted["_Disconnected"].Size = UDim2.new(0, 391, 0, 97)
+Converted["_Disconnected"].Visible = false
+Converted["_Disconnected"].ZIndex = 10
+Converted["_Disconnected"].Name = "Disconnected"
+Converted["_Disconnected"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner58"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner58"].Parent = Converted["_Disconnected"]
+
+Converted["_Content"].Font = Enum.Font.Unknown
+Converted["_Content"].Text = "You've been banned, would you like to leave this game?"
+Converted["_Content"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Content"].TextSize = 15
+Converted["_Content"].TextTransparency = 0.30000001192092896
+Converted["_Content"].TextWrapped = true
+Converted["_Content"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Content"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Content"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Content"].BackgroundTransparency = 1
+Converted["_Content"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Content"].BorderSizePixel = 0
+Converted["_Content"].Position = UDim2.new(0.0629999861, 0, 0.370000005, 0)
+Converted["_Content"].Size = UDim2.new(0, 235, 0, 52)
+Converted["_Content"].ZIndex = 10
+Converted["_Content"].Name = "Content"
+Converted["_Content"].Parent = Converted["_Disconnected"]
+
+Converted["_Action"].Font = Enum.Font.Unknown
+Converted["_Action"].Text = "Rejoin"
+Converted["_Action"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Action"].TextSize = 16
+Converted["_Action"].TextWrapped = true
+Converted["_Action"].AnchorPoint = Vector2.new(1, 1)
+Converted["_Action"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_Action"].BackgroundTransparency = 0.699999988079071
+Converted["_Action"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Action"].BorderSizePixel = 0
+Converted["_Action"].Position = UDim2.new(1, -10, 1, -10)
+Converted["_Action"].Size = UDim2.new(0, 88, 0, 36)
+Converted["_Action"].ZIndex = 10
+Converted["_Action"].Name = "Action"
+Converted["_Action"].Parent = Converted["_Disconnected"]
+
+Converted["_UICorner59"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner59"].Parent = Converted["_Action"]
+
+Converted["_Title29"].Font = Enum.Font.Unknown
+Converted["_Title29"].Text = "Removal Detection"
+Converted["_Title29"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title29"].TextScaled = true
+Converted["_Title29"].TextSize = 14
+Converted["_Title29"].TextWrapped = true
+Converted["_Title29"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title29"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title29"].BackgroundTransparency = 1
+Converted["_Title29"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title29"].BorderSizePixel = 0
+Converted["_Title29"].Position = UDim2.new(0.0632659867, 0, 0.187546402, 0)
+Converted["_Title29"].Size = UDim2.new(0, 210, 0, 17)
+Converted["_Title29"].ZIndex = 10
+Converted["_Title29"].Name = "Title"
+Converted["_Title29"].Parent = Converted["_Disconnected"]
+
+Converted["_UIGradient34"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(61.00000016391277, 125.00000014901161, 227.00000166893005))
+}
+Converted["_UIGradient34"].Offset = Vector2.new(0, 0.6499999761581421)
+Converted["_UIGradient34"].Rotation = 80
+Converted["_UIGradient34"].Parent = Converted["_Disconnected"]
+
+Converted["_ScriptSearch"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ScriptSearch"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptSearch"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptSearch"].BorderSizePixel = 0
+Converted["_ScriptSearch"].Position = UDim2.new(0.5, 0, 0.499690175, 0)
+Converted["_ScriptSearch"].Size = UDim2.new(0, 580, 0, 529)
+Converted["_ScriptSearch"].Visible = false
+Converted["_ScriptSearch"].Name = "ScriptSearch"
+Converted["_ScriptSearch"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner60"].CornerRadius = UDim.new(0, 12)
+Converted["_UICorner60"].Parent = Converted["_ScriptSearch"]
+
+Converted["_SearchBox1"].ClearTextOnFocus = false
+Converted["_SearchBox1"].Font = Enum.Font.Unknown
+Converted["_SearchBox1"].PlaceholderColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_SearchBox1"].PlaceholderText = "Search for scripts"
+Converted["_SearchBox1"].Text = ""
+Converted["_SearchBox1"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_SearchBox1"].TextScaled = true
+Converted["_SearchBox1"].TextSize = 14
+Converted["_SearchBox1"].TextWrapped = true
+Converted["_SearchBox1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_SearchBox1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_SearchBox1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SearchBox1"].BackgroundTransparency = 1
+Converted["_SearchBox1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_SearchBox1"].BorderSizePixel = 0
+Converted["_SearchBox1"].Position = UDim2.new(0.523000002, 0, 0.0540000014, 0)
+Converted["_SearchBox1"].Size = UDim2.new(0, 512, 0, 16)
+Converted["_SearchBox1"].Name = "SearchBox"
+Converted["_SearchBox1"].Parent = Converted["_ScriptSearch"]
+
+Converted["_Icon21"].Image = "rbxassetid://3605509925"
+Converted["_Icon21"].ImageColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_Icon21"].ImageContent = Content
+Converted["_Icon21"].ScaleType = Enum.ScaleType.Fit
+Converted["_Icon21"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Icon21"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Icon21"].BackgroundTransparency = 1
+Converted["_Icon21"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Icon21"].BorderSizePixel = 0
+Converted["_Icon21"].Position = UDim2.new(0.0537931025, 0, 0.0560637638, 0)
+Converted["_Icon21"].Size = UDim2.new(0, 21, 0, 21)
+Converted["_Icon21"].Name = "Icon"
+Converted["_Icon21"].Parent = Converted["_ScriptSearch"]
+
+Converted["_Shadow10"].Image = "rbxassetid://3523728077"
+Converted["_Shadow10"].ImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Shadow10"].ImageContent = Content
+Converted["_Shadow10"].ImageTransparency = 0.8500000238418579
+Converted["_Shadow10"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow10"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow10"].BackgroundTransparency = 1
+Converted["_Shadow10"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow10"].BorderSizePixel = 0
+Converted["_Shadow10"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow10"].Size = UDim2.new(1, 65, 1, 55)
+Converted["_Shadow10"].ZIndex = 0
+Converted["_Shadow10"].Name = "Shadow"
+Converted["_Shadow10"].Parent = Converted["_ScriptSearch"]
+
+Converted["_List3"].AutomaticCanvasSize = Enum.AutomaticSize.Y
+Converted["_List3"].CanvasSize = UDim2.new(0, 0, 0, 0)
+Converted["_List3"].ScrollBarImageColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_List3"].ScrollBarThickness = 2
+Converted["_List3"].Active = true
+Converted["_List3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_List3"].BackgroundTransparency = 1
+Converted["_List3"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_List3"].BorderSizePixel = 0
+Converted["_List3"].Position = UDim2.new(0, 0, 0.0967807025, 0)
+Converted["_List3"].Size = UDim2.new(0, 580, 0, 461)
+Converted["_List3"].Name = "List"
+Converted["_List3"].Parent = Converted["_ScriptSearch"]
+
+Converted["_UIListLayout6"].Padding = UDim.new(0, 8)
+Converted["_UIListLayout6"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout6"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout6"].Parent = Converted["_List3"]
+
+Converted["_Placeholder4"].BackgroundColor3 = Color3.fromRGB(25.000000409781933, 25.000000409781933, 25.000000409781933)
+Converted["_Placeholder4"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Placeholder4"].BorderSizePixel = 0
+Converted["_Placeholder4"].LayoutOrder = -100
+Converted["_Placeholder4"].Position = UDim2.new(0.0425862297, 0, 0, 0)
+Converted["_Placeholder4"].Name = "Placeholder"
+Converted["_Placeholder4"].Parent = Converted["_List3"]
+
+Converted["_Placeholder5"].BackgroundColor3 = Color3.fromRGB(25.000000409781933, 25.000000409781933, 25.000000409781933)
+Converted["_Placeholder5"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Placeholder5"].BorderSizePixel = 0
+Converted["_Placeholder5"].LayoutOrder = 100
+Converted["_Placeholder5"].Position = UDim2.new(0.0425862297, 0, 0, 0)
+Converted["_Placeholder5"].Name = "Placeholder"
+Converted["_Placeholder5"].Parent = Converted["_List3"]
+
+Converted["_Template7"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Template7"].BackgroundTransparency = 0.800000011920929
+Converted["_Template7"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template7"].BorderSizePixel = 0
+Converted["_Template7"].Position = UDim2.new(0.0250000004, 0, 0, 0)
+Converted["_Template7"].Size = UDim2.new(0, 555, 0, 171)
+Converted["_Template7"].Name = "Template"
+Converted["_Template7"].Parent = Converted["_List3"]
+
+Converted["_UICorner61"].Parent = Converted["_Template7"]
+
+Converted["_ScriptName"].Font = Enum.Font.Unknown
+Converted["_ScriptName"].Text = "Script Example"
+Converted["_ScriptName"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ScriptName"].TextScaled = true
+Converted["_ScriptName"].TextSize = 14
+Converted["_ScriptName"].TextWrapped = true
+Converted["_ScriptName"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptName"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptName"].BackgroundTransparency = 1
+Converted["_ScriptName"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptName"].BorderSizePixel = 0
+Converted["_ScriptName"].Position = UDim2.new(0.0378378369, 0, 0.267053783, 0)
+Converted["_ScriptName"].Size = UDim2.new(0, 259, 0, 17)
+Converted["_ScriptName"].Name = "ScriptName"
+Converted["_ScriptName"].Parent = Converted["_Template7"]
+
+Converted["_ScriptDescription"].Font = Enum.Font.Unknown
+Converted["_ScriptDescription"].Text = "desc"
+Converted["_ScriptDescription"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ScriptDescription"].TextSize = 14
+Converted["_ScriptDescription"].TextTransparency = 0.30000001192092896
+Converted["_ScriptDescription"].TextWrapped = true
+Converted["_ScriptDescription"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptDescription"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_ScriptDescription"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptDescription"].BackgroundTransparency = 1
+Converted["_ScriptDescription"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptDescription"].BorderSizePixel = 0
+Converted["_ScriptDescription"].Position = UDim2.new(0.0379999392, 0, 0.364912242, 0)
+Converted["_ScriptDescription"].Size = UDim2.new(0, 363, 0, 83)
+Converted["_ScriptDescription"].Name = "ScriptDescription"
+Converted["_ScriptDescription"].Parent = Converted["_Template7"]
+
+Converted["_ScriptAuthor"].Font = Enum.Font.Unknown
+Converted["_ScriptAuthor"].Text = "uploaded by unknown"
+Converted["_ScriptAuthor"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ScriptAuthor"].TextScaled = true
+Converted["_ScriptAuthor"].TextSize = 14
+Converted["_ScriptAuthor"].TextTransparency = 0.699999988079071
+Converted["_ScriptAuthor"].TextWrapped = true
+Converted["_ScriptAuthor"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptAuthor"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptAuthor"].BackgroundTransparency = 1
+Converted["_ScriptAuthor"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptAuthor"].BorderSizePixel = 0
+Converted["_ScriptAuthor"].Position = UDim2.new(0.0378378369, 0, 0.855087519, 0)
+Converted["_ScriptAuthor"].Size = UDim2.new(0, 405, 0, 13)
+Converted["_ScriptAuthor"].Name = "ScriptAuthor"
+Converted["_ScriptAuthor"].Parent = Converted["_Template7"]
+
+Converted["_Tags"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tags"].BackgroundTransparency = 1
+Converted["_Tags"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Tags"].BorderSizePixel = 0
+Converted["_Tags"].Position = UDim2.new(0.284369379, 0, 0.0409356728, 0)
+Converted["_Tags"].Size = UDim2.new(0, 386, 0, 30)
+Converted["_Tags"].Name = "Tags"
+Converted["_Tags"].Parent = Converted["_Template7"]
+
+Converted["_UIListLayout7"].Padding = UDim.new(0, 4)
+Converted["_UIListLayout7"].FillDirection = Enum.FillDirection.Horizontal
+Converted["_UIListLayout7"].HorizontalAlignment = Enum.HorizontalAlignment.Right
+Converted["_UIListLayout7"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout7"].VerticalAlignment = Enum.VerticalAlignment.Center
+Converted["_UIListLayout7"].Parent = Converted["_Tags"]
+
+Converted["_Verified"].BackgroundColor3 = Color3.fromRGB(0, 141.0000067949295, 211.0000178217888)
+Converted["_Verified"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Verified"].BorderSizePixel = 0
+Converted["_Verified"].LayoutOrder = 10
+Converted["_Verified"].Position = UDim2.new(0.268588066, 0, 0, 0)
+Converted["_Verified"].Size = UDim2.new(0, 140, 1, 0)
+Converted["_Verified"].Name = "Verified"
+Converted["_Verified"].Parent = Converted["_Tags"]
+
+Converted["_UICorner62"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner62"].Parent = Converted["_Verified"]
+
+Converted["_Title30"].Font = Enum.Font.Unknown
+Converted["_Title30"].Text = "Verified Creator"
+Converted["_Title30"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title30"].TextScaled = true
+Converted["_Title30"].TextSize = 14
+Converted["_Title30"].TextWrapped = true
+Converted["_Title30"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Title30"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title30"].BackgroundTransparency = 1
+Converted["_Title30"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title30"].BorderSizePixel = 0
+Converted["_Title30"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Title30"].Size = UDim2.new(0.800000012, 0, 0, 15)
+Converted["_Title30"].ZIndex = 3
+Converted["_Title30"].Name = "Title"
+Converted["_Title30"].Parent = Converted["_Verified"]
+
+Converted["_Shadow11"].Image = "rbxassetid://3602733521"
+Converted["_Shadow11"].ImageColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Shadow11"].ImageContent = Content
+Converted["_Shadow11"].ImageTransparency = 0.699999988079071
+Converted["_Shadow11"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow11"].BackgroundTransparency = 1
+Converted["_Shadow11"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow11"].BorderSizePixel = 0
+Converted["_Shadow11"].Position = UDim2.new(0.499999642, 0, 0.5, 0)
+Converted["_Shadow11"].Size = UDim2.new(0.999999642, 0, 1.00000012, 0)
+Converted["_Shadow11"].Name = "Shadow"
+Converted["_Shadow11"].Parent = Converted["_Verified"]
+
+Converted["_UICorner63"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner63"].Parent = Converted["_Shadow11"]
+
+Converted["_Review"].BackgroundColor3 = Color3.fromRGB(0, 139.0000069141388, 102.00000151991844)
+Converted["_Review"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Review"].BorderSizePixel = 0
+Converted["_Review"].LayoutOrder = 10
+Converted["_Review"].Position = UDim2.new(0.666662991, 0, 0, 0)
+Converted["_Review"].Size = UDim2.new(0, 145, 1, 0)
+Converted["_Review"].Name = "Review"
+Converted["_Review"].Parent = Converted["_Tags"]
+
+Converted["_UICorner64"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner64"].Parent = Converted["_Review"]
+
+Converted["_Title31"].Font = Enum.Font.Unknown
+Converted["_Title31"].Text = "Positive Reviews"
+Converted["_Title31"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title31"].TextScaled = true
+Converted["_Title31"].TextSize = 14
+Converted["_Title31"].TextWrapped = true
+Converted["_Title31"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Title31"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title31"].BackgroundTransparency = 1
+Converted["_Title31"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title31"].BorderSizePixel = 0
+Converted["_Title31"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Title31"].Size = UDim2.new(0.800000012, 0, 0, 15)
+Converted["_Title31"].ZIndex = 3
+Converted["_Title31"].Name = "Title"
+Converted["_Title31"].Parent = Converted["_Review"]
+
+Converted["_Shadow12"].Image = "rbxassetid://3602733521"
+Converted["_Shadow12"].ImageColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Shadow12"].ImageContent = Content
+Converted["_Shadow12"].ImageTransparency = 0.699999988079071
+Converted["_Shadow12"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow12"].BackgroundTransparency = 1
+Converted["_Shadow12"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow12"].BorderSizePixel = 0
+Converted["_Shadow12"].Position = UDim2.new(0.499999642, 0, 0.5, 0)
+Converted["_Shadow12"].Size = UDim2.new(0.999999642, 0, 1.00000012, 0)
+Converted["_Shadow12"].Name = "Shadow"
+Converted["_Shadow12"].Parent = Converted["_Review"]
+
+Converted["_UICorner65"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner65"].Parent = Converted["_Shadow12"]
+
+Converted["_Patched"].BackgroundColor3 = Color3.fromRGB(176.00000470876694, 39.00000147521496, 39.00000147521496)
+Converted["_Patched"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Patched"].BorderSizePixel = 0
+Converted["_Patched"].LayoutOrder = 10
+Converted["_Patched"].Position = UDim2.new(0.268588066, 0, 0, 0)
+Converted["_Patched"].Size = UDim2.new(0, 83, 1, 0)
+Converted["_Patched"].Name = "Patched"
+Converted["_Patched"].Parent = Converted["_Tags"]
+
+Converted["_UICorner66"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner66"].Parent = Converted["_Patched"]
+
+Converted["_Title32"].Font = Enum.Font.Unknown
+Converted["_Title32"].Text = "Patched"
+Converted["_Title32"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title32"].TextScaled = true
+Converted["_Title32"].TextSize = 14
+Converted["_Title32"].TextWrapped = true
+Converted["_Title32"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Title32"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title32"].BackgroundTransparency = 1
+Converted["_Title32"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title32"].BorderSizePixel = 0
+Converted["_Title32"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Title32"].Size = UDim2.new(0.800000012, 0, 0, 15)
+Converted["_Title32"].ZIndex = 3
+Converted["_Title32"].Name = "Title"
+Converted["_Title32"].Parent = Converted["_Patched"]
+
+Converted["_Shadow13"].Image = "rbxassetid://3602733521"
+Converted["_Shadow13"].ImageColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Shadow13"].ImageContent = Content
+Converted["_Shadow13"].ImageTransparency = 0.699999988079071
+Converted["_Shadow13"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow13"].BackgroundTransparency = 1
+Converted["_Shadow13"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow13"].BorderSizePixel = 0
+Converted["_Shadow13"].Position = UDim2.new(0.499999642, 0, 0.5, 0)
+Converted["_Shadow13"].Size = UDim2.new(0.999999642, 0, 1.00000012, 0)
+Converted["_Shadow13"].Name = "Shadow"
+Converted["_Shadow13"].Parent = Converted["_Patched"]
+
+Converted["_UICorner67"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner67"].Parent = Converted["_Shadow13"]
+
+Converted["_Execute"].Font = Enum.Font.Unknown
+Converted["_Execute"].Text = "Run"
+Converted["_Execute"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Execute"].TextSize = 16
+Converted["_Execute"].TextWrapped = true
+Converted["_Execute"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Execute"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Execute"].BackgroundTransparency = 0.800000011920929
+Converted["_Execute"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Execute"].BorderSizePixel = 0
+Converted["_Execute"].Position = UDim2.new(0.912351847, 0, 0.845373333, 0)
+Converted["_Execute"].Size = UDim2.new(0, 74, 0, 36)
+Converted["_Execute"].ZIndex = 10
+Converted["_Execute"].Name = "Execute"
+Converted["_Execute"].Parent = Converted["_Template7"]
+
+Converted["_UICorner68"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner68"].Parent = Converted["_Execute"]
+
+Converted["_NoScriptsTitle"].Font = Enum.Font.Unknown
+Converted["_NoScriptsTitle"].Text = "No Scripts Found"
+Converted["_NoScriptsTitle"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_NoScriptsTitle"].TextScaled = true
+Converted["_NoScriptsTitle"].TextSize = 14
+Converted["_NoScriptsTitle"].TextTransparency = 1
+Converted["_NoScriptsTitle"].TextWrapped = true
+Converted["_NoScriptsTitle"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_NoScriptsTitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NoScriptsTitle"].BackgroundTransparency = 1
+Converted["_NoScriptsTitle"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_NoScriptsTitle"].BorderSizePixel = 0
+Converted["_NoScriptsTitle"].Position = UDim2.new(0.5, 0, 0.482986778, 0)
+Converted["_NoScriptsTitle"].Size = UDim2.new(0, 195, 0, 17)
+Converted["_NoScriptsTitle"].Name = "NoScriptsTitle"
+Converted["_NoScriptsTitle"].Parent = Converted["_ScriptSearch"]
+
+Converted["_NoScriptsDesc"].Font = Enum.Font.Unknown
+Converted["_NoScriptsDesc"].Text = "Try searching with a different query"
+Converted["_NoScriptsDesc"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_NoScriptsDesc"].TextScaled = true
+Converted["_NoScriptsDesc"].TextSize = 14
+Converted["_NoScriptsDesc"].TextTransparency = 1
+Converted["_NoScriptsDesc"].TextWrapped = true
+Converted["_NoScriptsDesc"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_NoScriptsDesc"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NoScriptsDesc"].BackgroundTransparency = 1
+Converted["_NoScriptsDesc"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_NoScriptsDesc"].BorderSizePixel = 0
+Converted["_NoScriptsDesc"].Position = UDim2.new(0.5, 0, 0.515109658, 0)
+Converted["_NoScriptsDesc"].Size = UDim2.new(0, 355, 0, 15)
+Converted["_NoScriptsDesc"].Name = "NoScriptsDesc"
+Converted["_NoScriptsDesc"].Parent = Converted["_ScriptSearch"]
+
+Converted["_UIGradient35"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(61.00000016391277, 116.00000068545341, 198.00000339746475))
+}
+Converted["_UIGradient35"].Offset = Vector2.new(0, 0.6000000238418579)
+Converted["_UIGradient35"].Rotation = 80
+Converted["_UIGradient35"].Parent = Converted["_ScriptSearch"]
+
+Converted["_CustomScriptPrompt"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_CustomScriptPrompt"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CustomScriptPrompt"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_CustomScriptPrompt"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_CustomScriptPrompt"].Size = UDim2.new(0, 310, 0, 315)
+Converted["_CustomScriptPrompt"].Visible = false
+Converted["_CustomScriptPrompt"].Name = "CustomScriptPrompt"
+Converted["_CustomScriptPrompt"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner69"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner69"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_Title33"].Font = Enum.Font.Unknown
+Converted["_Title33"].Text = "Import Script"
+Converted["_Title33"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title33"].TextScaled = true
+Converted["_Title33"].TextSize = 14
+Converted["_Title33"].TextWrapped = true
+Converted["_Title33"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title33"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title33"].BackgroundTransparency = 1
+Converted["_Title33"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title33"].Position = UDim2.new(0.0596665889, 0, 0.0683826283, 0)
+Converted["_Title33"].Size = UDim2.new(0, 197, 0, 17)
+Converted["_Title33"].Name = "Title"
+Converted["_Title33"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_Close2"].Image = "rbxassetid://3926305904"
+Converted["_Close2"].ImageContent = Content
+Converted["_Close2"].ImageRectOffset = Vector2.new(924, 724)
+Converted["_Close2"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Close2"].ImageTransparency = 0.6000000238418579
+Converted["_Close2"].AnchorPoint = Vector2.new(1, 0)
+Converted["_Close2"].BackgroundTransparency = 1
+Converted["_Close2"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Close2"].BorderSizePixel = 0
+Converted["_Close2"].Position = UDim2.new(1, -15, 0, 15)
+Converted["_Close2"].Size = UDim2.new(0, 18, 0, 18)
+Converted["_Close2"].ZIndex = 2
+Converted["_Close2"].Name = "Close"
+Converted["_Close2"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_Subtitle11"].Font = Enum.Font.Unknown
+Converted["_Subtitle11"].Text = "Import your own script and loadstring for Sirius to use."
+Converted["_Subtitle11"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_Subtitle11"].TextScaled = true
+Converted["_Subtitle11"].TextSize = 14
+Converted["_Subtitle11"].TextWrapped = true
+Converted["_Subtitle11"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Subtitle11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle11"].BackgroundTransparency = 1
+Converted["_Subtitle11"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Subtitle11"].Position = UDim2.new(0.0596666671, 0, 0.123177171, 0)
+Converted["_Subtitle11"].Size = UDim2.new(0, 232, 0, 29)
+Converted["_Subtitle11"].Name = "Subtitle"
+Converted["_Subtitle11"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_UIGradient36"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(68.00000354647636, 135.00000715255737, 180.00000447034836))
+}
+Converted["_UIGradient36"].Offset = Vector2.new(0, -0.4000000059604645)
+Converted["_UIGradient36"].Rotation = -80
+Converted["_UIGradient36"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_IDBox"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_IDBox"].BackgroundTransparency = 0.699999988079071
+Converted["_IDBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_IDBox"].Position = UDim2.new(0.0570151061, 0, 0.304418743, 0)
+Converted["_IDBox"].Size = UDim2.new(0, 232, 0, 30)
+Converted["_IDBox"].Name = "IDBox"
+Converted["_IDBox"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_IDTextBox"].ClearTextOnFocus = false
+Converted["_IDTextBox"].Font = Enum.Font.Unknown
+Converted["_IDTextBox"].PlaceholderText = "PlaceId"
+Converted["_IDTextBox"].Text = ""
+Converted["_IDTextBox"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_IDTextBox"].TextSize = 13
+Converted["_IDTextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_IDTextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_IDTextBox"].BackgroundTransparency = 1
+Converted["_IDTextBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_IDTextBox"].Position = UDim2.new(0.0488160215, 0, 0, 0)
+Converted["_IDTextBox"].Size = UDim2.new(0, 205, 0, 30)
+Converted["_IDTextBox"].Name = "IDTextBox"
+Converted["_IDTextBox"].Parent = Converted["_IDBox"]
+
+Converted["_UICorner70"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner70"].Parent = Converted["_IDBox"]
+
+Converted["_DescBox"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_DescBox"].BackgroundTransparency = 0.699999988079071
+Converted["_DescBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_DescBox"].Position = UDim2.new(0.0570151061, 0, 0.41870448, 0)
+Converted["_DescBox"].Size = UDim2.new(0, 232, 0, 67)
+Converted["_DescBox"].Name = "DescBox"
+Converted["_DescBox"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_DescTextBox"].ClearTextOnFocus = false
+Converted["_DescTextBox"].Font = Enum.Font.Unknown
+Converted["_DescTextBox"].PlaceholderText = "Description"
+Converted["_DescTextBox"].Text = ""
+Converted["_DescTextBox"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_DescTextBox"].TextSize = 13
+Converted["_DescTextBox"].TextWrapped = true
+Converted["_DescTextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_DescTextBox"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_DescTextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DescTextBox"].BackgroundTransparency = 1
+Converted["_DescTextBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_DescTextBox"].Position = UDim2.new(0.0488160215, 0, 0.127073377, 0)
+Converted["_DescTextBox"].Size = UDim2.new(0, 209, 0, 55)
+Converted["_DescTextBox"].Name = "DescTextBox"
+Converted["_DescTextBox"].Parent = Converted["_DescBox"]
+
+Converted["_UICorner71"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner71"].Parent = Converted["_DescBox"]
+
+Converted["_ScriptBox"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_ScriptBox"].BackgroundTransparency = 0.699999988079071
+Converted["_ScriptBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptBox"].Position = UDim2.new(0.0570151061, 0, 0.650450468, 0)
+Converted["_ScriptBox"].Size = UDim2.new(0, 232, 0, 30)
+Converted["_ScriptBox"].Name = "ScriptBox"
+Converted["_ScriptBox"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_UICorner72"].CornerRadius = UDim.new(0, 9)
+Converted["_UICorner72"].Parent = Converted["_ScriptBox"]
+
+Converted["_ScriptTextBox"].ClearTextOnFocus = false
+Converted["_ScriptTextBox"].Font = Enum.Font.Unknown
+Converted["_ScriptTextBox"].PlaceholderText = "Raw Code Link"
+Converted["_ScriptTextBox"].Text = ""
+Converted["_ScriptTextBox"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ScriptTextBox"].TextSize = 13
+Converted["_ScriptTextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptTextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptTextBox"].BackgroundTransparency = 1
+Converted["_ScriptTextBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptTextBox"].Position = UDim2.new(0.0488160215, 0, 0, 0)
+Converted["_ScriptTextBox"].Size = UDim2.new(0, 205, 0, 30)
+Converted["_ScriptTextBox"].Name = "ScriptTextBox"
+Converted["_ScriptTextBox"].Parent = Converted["_ScriptBox"]
+
+Converted["_Submit"].Font = Enum.Font.Unknown
+Converted["_Submit"].Text = "Submit"
+Converted["_Submit"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Submit"].TextSize = 16
+Converted["_Submit"].TextTransparency = 0.05000000074505806
+Converted["_Submit"].TextWrapped = true
+Converted["_Submit"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Submit"].BackgroundTransparency = 0.699999988079071
+Converted["_Submit"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Submit"].Position = UDim2.new(0.675346494, 0, 0.864385486, 0)
+Converted["_Submit"].Size = UDim2.new(0, 90, 0, 33)
+Converted["_Submit"].Name = "Submit"
+Converted["_Submit"].Parent = Converted["_CustomScriptPrompt"]
+
+Converted["_UICorner73"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner73"].Parent = Converted["_Submit"]
+
+Converted["_Settings1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Settings1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Settings1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Settings1"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Settings1"].Size = UDim2.new(0, 613, 0, 384)
+Converted["_Settings1"].Visible = false
+Converted["_Settings1"].ZIndex = 200
+Converted["_Settings1"].Name = "Settings"
+Converted["_Settings1"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner74"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner74"].Parent = Converted["_Settings1"]
+
+Converted["_Title34"].Font = Enum.Font.Unknown
+Converted["_Title34"].Text = "Detections"
+Converted["_Title34"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title34"].TextScaled = true
+Converted["_Title34"].TextSize = 14
+Converted["_Title34"].TextWrapped = true
+Converted["_Title34"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title34"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title34"].BackgroundTransparency = 1
+Converted["_Title34"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title34"].Position = UDim2.new(0.0909999982, 0, 0.057, 0)
+Converted["_Title34"].Size = UDim2.new(0, 239, 0, 20)
+Converted["_Title34"].ZIndex = 205
+Converted["_Title34"].Name = "Title"
+Converted["_Title34"].Parent = Converted["_Settings1"]
+
+Converted["_Shadow14"].Image = "rbxassetid://3523728077"
+Converted["_Shadow14"].ImageColor3 = Color3.fromRGB(24.00000236928463, 24.00000236928463, 24.00000236928463)
+Converted["_Shadow14"].ImageContent = Content
+Converted["_Shadow14"].ImageTransparency = 0.699999988079071
+Converted["_Shadow14"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow14"].BackgroundTransparency = 1
+Converted["_Shadow14"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow14"].BorderSizePixel = 0
+Converted["_Shadow14"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow14"].Size = UDim2.new(0, 685, 0, 623)
+Converted["_Shadow14"].ZIndex = 199
+Converted["_Shadow14"].Name = "Shadow"
+Converted["_Shadow14"].Parent = Converted["_Settings1"]
+
+Converted["_SettingTypes"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SettingTypes"].BackgroundTransparency = 1
+Converted["_SettingTypes"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_SettingTypes"].Position = UDim2.new(0, 0, 0.223958418, 0)
+Converted["_SettingTypes"].Size = UDim2.new(0, 613, 0, 287)
+Converted["_SettingTypes"].ZIndex = 205
+Converted["_SettingTypes"].Name = "SettingTypes"
+Converted["_SettingTypes"].Parent = Converted["_Settings1"]
+
+Converted["_UIGridLayout1"].CellPadding = UDim2.new(0, 10, 0, 10)
+Converted["_UIGridLayout1"].CellSize = UDim2.new(0, 180, 0, 100)
+Converted["_UIGridLayout1"].FillDirectionMaxCells = 3
+Converted["_UIGridLayout1"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIGridLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIGridLayout1"].Parent = Converted["_SettingTypes"]
+
+Converted["_Template8"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Template8"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template8"].BorderSizePixel = 0
+Converted["_Template8"].Size = UDim2.new(0, 100, 0, 100)
+Converted["_Template8"].Visible = false
+Converted["_Template8"].ZIndex = 205
+Converted["_Template8"].Name = "Template"
+Converted["_Template8"].Parent = Converted["_SettingTypes"]
+
+Converted["_UICorner75"].CornerRadius = UDim.new(0, 12)
+Converted["_UICorner75"].Parent = Converted["_Template8"]
+
+Converted["_UIStroke33"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke33"].Parent = Converted["_Template8"]
+
+Converted["_UIGradient37"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 126.00000008940697, 185.00000417232513))
+}
+Converted["_UIGradient37"].Offset = Vector2.new(0, 0.4000000059604645)
+Converted["_UIGradient37"].Rotation = 80
+Converted["_UIGradient37"].Parent = Converted["_UIStroke33"]
+
+Converted["_UIGradient38"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(10.000000353902578, 10.000000353902578, 10.000000353902578)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 126.00000008940697, 185.00000417232513))
+}
+Converted["_UIGradient38"].Offset = Vector2.new(0, 0.6499999761581421)
+Converted["_UIGradient38"].Rotation = 80
+Converted["_UIGradient38"].Parent = Converted["_Template8"]
+
+Converted["_Title35"].Font = Enum.Font.Unknown
+Converted["_Title35"].Text = "GENERAL"
+Converted["_Title35"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title35"].TextScaled = true
+Converted["_Title35"].TextSize = 14
+Converted["_Title35"].TextTransparency = 0.20000000298023224
+Converted["_Title35"].TextWrapped = true
+Converted["_Title35"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_Title35"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title35"].BackgroundTransparency = 1
+Converted["_Title35"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title35"].BorderSizePixel = 0
+Converted["_Title35"].Position = UDim2.new(0.183333337, 0, 0.74000001, 0)
+Converted["_Title35"].Size = UDim2.new(0, 133, 0, 17)
+Converted["_Title35"].ZIndex = 210
+Converted["_Title35"].Name = "Title"
+Converted["_Title35"].Parent = Converted["_Template8"]
+
+Converted["_Shadow15"].Image = "rbxassetid://3523728077"
+Converted["_Shadow15"].ImageContent = Content
+Converted["_Shadow15"].ImageTransparency = 0.699999988079071
+Converted["_Shadow15"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow15"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow15"].BackgroundTransparency = 1
+Converted["_Shadow15"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow15"].BorderSizePixel = 0
+Converted["_Shadow15"].Position = UDim2.new(0.50036484, 0, 0.489581287, 0)
+Converted["_Shadow15"].Size = UDim2.new(0, 205, 0, 179)
+Converted["_Shadow15"].ZIndex = 207
+Converted["_Shadow15"].Name = "Shadow"
+Converted["_Shadow15"].Parent = Converted["_Template8"]
+
+Converted["_UIGradient39"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 126.00000008940697, 185.00000417232513))
+}
+Converted["_UIGradient39"].Offset = Vector2.new(0, 0.4000000059604645)
+Converted["_UIGradient39"].Rotation = 80
+Converted["_UIGradient39"].Parent = Converted["_Shadow15"]
+
+Converted["_Interact24"].Font = Enum.Font.SourceSans
+Converted["_Interact24"].Text = ""
+Converted["_Interact24"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact24"].TextSize = 14
+Converted["_Interact24"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact24"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact24"].BackgroundTransparency = 1
+Converted["_Interact24"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact24"].BorderSizePixel = 0
+Converted["_Interact24"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Interact24"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Interact24"].ZIndex = 215
+Converted["_Interact24"].Name = "Interact"
+Converted["_Interact24"].Parent = Converted["_Template8"]
+
+Converted["_Subtitle12"].Font = Enum.Font.Unknown
+Converted["_Subtitle12"].Text = "The basic and essential settings that you can quickly modify to tweak your experience"
+Converted["_Subtitle12"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_Subtitle12"].TextSize = 14
+Converted["_Subtitle12"].TextWrapped = true
+Converted["_Subtitle12"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Subtitle12"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle12"].BackgroundTransparency = 1
+Converted["_Subtitle12"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Subtitle12"].Position = UDim2.new(0.0450000353, 0, 0.111999989, 0)
+Converted["_Subtitle12"].Size = UDim2.new(0, 282, 0, 30)
+Converted["_Subtitle12"].ZIndex = 205
+Converted["_Subtitle12"].Name = "Subtitle"
+Converted["_Subtitle12"].Parent = Converted["_Settings1"]
+
+Converted["_Back"].Image = "rbxassetid://3926305904"
+Converted["_Back"].ImageContent = Content
+Converted["_Back"].ImageRectOffset = Vector2.new(564, 244)
+Converted["_Back"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Back"].BackgroundTransparency = 1
+Converted["_Back"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Back"].Position = UDim2.new(0.0410000011, 0, 0.0520000011, 0)
+Converted["_Back"].Size = UDim2.new(0, 25, 0, 25)
+Converted["_Back"].ZIndex = 205
+Converted["_Back"].Name = "Back"
+Converted["_Back"].Parent = Converted["_Settings1"]
+
+Converted["_SettingLists"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SettingLists"].BackgroundTransparency = 1
+Converted["_SettingLists"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_SettingLists"].ClipsDescendants = true
+Converted["_SettingLists"].Position = UDim2.new(0, 0, 0.224000007, 0)
+Converted["_SettingLists"].Size = UDim2.new(0, 613, 0, 287)
+Converted["_SettingLists"].ZIndex = 205
+Converted["_SettingLists"].Name = "SettingLists"
+Converted["_SettingLists"].Parent = Converted["_Settings1"]
+
+Converted["_UIPageLayout1"].Animated = false
+Converted["_UIPageLayout1"].EasingStyle = Enum.EasingStyle.Exponential
+Converted["_UIPageLayout1"].FillDirection = Enum.FillDirection.Vertical
+Converted["_UIPageLayout1"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIPageLayout1"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIPageLayout1"].VerticalAlignment = Enum.VerticalAlignment.Center
+Converted["_UIPageLayout1"].Parent = Converted["_SettingLists"]
+
+Converted["_Template9"].AutomaticCanvasSize = Enum.AutomaticSize.Y
+Converted["_Template9"].CanvasSize = UDim2.new(0, 0, 0, 0)
+Converted["_Template9"].ScrollBarThickness = 2
+Converted["_Template9"].Active = true
+Converted["_Template9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Template9"].BackgroundTransparency = 1
+Converted["_Template9"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template9"].BorderSizePixel = 0
+Converted["_Template9"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Template9"].ZIndex = 205
+Converted["_Template9"].Name = "Template"
+Converted["_Template9"].Parent = Converted["_SettingLists"]
+
+Converted["_SwitchTemplate"].BackgroundColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_SwitchTemplate"].BackgroundTransparency = 0.8999999761581421
+Converted["_SwitchTemplate"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_SwitchTemplate"].BorderSizePixel = 0
+Converted["_SwitchTemplate"].Position = UDim2.new(0.0473083183, 0, 0, 0)
+Converted["_SwitchTemplate"].Size = UDim2.new(0, 558, 0, 40)
+Converted["_SwitchTemplate"].ZIndex = 205
+Converted["_SwitchTemplate"].Name = "SwitchTemplate"
+Converted["_SwitchTemplate"].Parent = Converted["_Template9"]
+
+Converted["_UICorner76"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner76"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_Title36"].Font = Enum.Font.Unknown
+Converted["_Title36"].Text = "Switch"
+Converted["_Title36"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title36"].TextScaled = true
+Converted["_Title36"].TextSize = 14
+Converted["_Title36"].TextWrapped = true
+Converted["_Title36"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title36"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title36"].BackgroundTransparency = 1
+Converted["_Title36"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title36"].BorderSizePixel = 0
+Converted["_Title36"].Position = UDim2.new(0, 18, 0, 12)
+Converted["_Title36"].Size = UDim2.new(0, 333, 0, 16)
+Converted["_Title36"].ZIndex = 205
+Converted["_Title36"].Name = "Title"
+Converted["_Title36"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_UIStroke34"].Color = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_UIStroke34"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_Switch"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_Switch"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
+Converted["_Switch"].BackgroundTransparency = 1
+Converted["_Switch"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Switch"].BorderSizePixel = 0
+Converted["_Switch"].Position = UDim2.new(1, -12, 0.5, 0)
+Converted["_Switch"].Size = UDim2.new(0, 43, 0, 21)
+Converted["_Switch"].ZIndex = 205
+Converted["_Switch"].Name = "Switch"
+Converted["_Switch"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_UICorner77"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner77"].Parent = Converted["_Switch"]
+
+Converted["_UIStroke35"].Color = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_UIStroke35"].Parent = Converted["_Switch"]
+
+Converted["_Indicator"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Indicator"].BackgroundColor3 = Color3.fromRGB(235.0000011920929, 235.0000011920929, 235.0000011920929)
+Converted["_Indicator"].BackgroundTransparency = 0.75
+Converted["_Indicator"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Indicator"].BorderSizePixel = 0
+Converted["_Indicator"].Position = UDim2.new(1, -40, 0.5, 0)
+Converted["_Indicator"].Size = UDim2.new(0, 17, 0, 17)
+Converted["_Indicator"].ZIndex = 205
+Converted["_Indicator"].Name = "Indicator"
+Converted["_Indicator"].Parent = Converted["_Switch"]
+
+Converted["_UICorner78"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner78"].Parent = Converted["_Indicator"]
+
+Converted["_UIStroke36"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke36"].Thickness = 1.2000000476837158
+Converted["_UIStroke36"].Parent = Converted["_Indicator"]
+
+Converted["_Interact25"].Font = Enum.Font.SourceSans
+Converted["_Interact25"].Text = ""
+Converted["_Interact25"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact25"].TextSize = 14
+Converted["_Interact25"].TextTransparency = 1
+Converted["_Interact25"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact25"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact25"].BackgroundTransparency = 1
+Converted["_Interact25"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact25"].BorderSizePixel = 0
+Converted["_Interact25"].Position = UDim2.new(0.815322578, 0, 0.5, 0)
+Converted["_Interact25"].Size = UDim2.new(0.369354695, 0, 1, 0)
+Converted["_Interact25"].ZIndex = 210
+Converted["_Interact25"].Name = "Interact"
+Converted["_Interact25"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_Description1"].Font = Enum.Font.Unknown
+Converted["_Description1"].Text = "Button"
+Converted["_Description1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Description1"].TextSize = 14
+Converted["_Description1"].TextTransparency = 0.30000001192092896
+Converted["_Description1"].TextWrapped = true
+Converted["_Description1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Description1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Description1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Description1"].BackgroundTransparency = 1
+Converted["_Description1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Description1"].BorderSizePixel = 0
+Converted["_Description1"].Position = UDim2.new(0, 18, 0, 30)
+Converted["_Description1"].Size = UDim2.new(0, 333, 0, 57)
+Converted["_Description1"].Visible = false
+Converted["_Description1"].ZIndex = 205
+Converted["_Description1"].Name = "Description"
+Converted["_Description1"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_LicenseDisplay"].Font = Enum.Font.Unknown
+Converted["_LicenseDisplay"].Text = "PRO FEATURE"
+Converted["_LicenseDisplay"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_LicenseDisplay"].TextScaled = true
+Converted["_LicenseDisplay"].TextSize = 14
+Converted["_LicenseDisplay"].TextTransparency = 0.6000000238418579
+Converted["_LicenseDisplay"].TextWrapped = true
+Converted["_LicenseDisplay"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_LicenseDisplay"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_LicenseDisplay"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LicenseDisplay"].BackgroundTransparency = 1
+Converted["_LicenseDisplay"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_LicenseDisplay"].BorderSizePixel = 0
+Converted["_LicenseDisplay"].Position = UDim2.new(0, 18, 0, 13)
+Converted["_LicenseDisplay"].Size = UDim2.new(0, 333, 0, 12)
+Converted["_LicenseDisplay"].Visible = false
+Converted["_LicenseDisplay"].ZIndex = 205
+Converted["_LicenseDisplay"].Name = "LicenseDisplay"
+Converted["_LicenseDisplay"].Parent = Converted["_SwitchTemplate"]
+
+Converted["_UIListLayout8"].Padding = UDim.new(0, 6)
+Converted["_UIListLayout8"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout8"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout8"].Parent = Converted["_Template9"]
+
+Converted["_Placeholder6"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Placeholder6"].BackgroundTransparency = 1
+Converted["_Placeholder6"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Placeholder6"].BorderSizePixel = 0
+Converted["_Placeholder6"].LayoutOrder = -100
+Converted["_Placeholder6"].Position = UDim2.new(0.0473083183, 0, 0, 0)
+Converted["_Placeholder6"].ZIndex = 205
+Converted["_Placeholder6"].Name = "Placeholder"
+Converted["_Placeholder6"].Parent = Converted["_Template9"]
+
+Converted["_InputTemplate"].BackgroundColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_InputTemplate"].BackgroundTransparency = 0.8999999761581421
+Converted["_InputTemplate"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_InputTemplate"].BorderSizePixel = 0
+Converted["_InputTemplate"].Position = UDim2.new(0.0473083183, 0, 0, 0)
+Converted["_InputTemplate"].Size = UDim2.new(0, 558, 0, 40)
+Converted["_InputTemplate"].ZIndex = 205
+Converted["_InputTemplate"].Name = "InputTemplate"
+Converted["_InputTemplate"].Parent = Converted["_Template9"]
+
+Converted["_UICorner79"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner79"].Parent = Converted["_InputTemplate"]
+
+Converted["_UIStroke37"].Color = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_UIStroke37"].Parent = Converted["_InputTemplate"]
+
+Converted["_Title37"].Font = Enum.Font.Unknown
+Converted["_Title37"].Text = "Input"
+Converted["_Title37"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title37"].TextScaled = true
+Converted["_Title37"].TextSize = 14
+Converted["_Title37"].TextWrapped = true
+Converted["_Title37"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title37"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title37"].BackgroundTransparency = 1
+Converted["_Title37"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title37"].BorderSizePixel = 0
+Converted["_Title37"].Position = UDim2.new(0, 18, 0, 12)
+Converted["_Title37"].Size = UDim2.new(0, 333, 0, 16)
+Converted["_Title37"].ZIndex = 205
+Converted["_Title37"].Name = "Title"
+Converted["_Title37"].Parent = Converted["_InputTemplate"]
+
+Converted["_InputFrame"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_InputFrame"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
+Converted["_InputFrame"].BackgroundTransparency = 1
+Converted["_InputFrame"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_InputFrame"].BorderSizePixel = 0
+Converted["_InputFrame"].Position = UDim2.new(1, -7, 0, 20)
+Converted["_InputFrame"].Size = UDim2.new(0, 120, 0, 30)
+Converted["_InputFrame"].ZIndex = 205
+Converted["_InputFrame"].Name = "InputFrame"
+Converted["_InputFrame"].Parent = Converted["_InputTemplate"]
+
+Converted["_InputBox"].ClearTextOnFocus = false
+Converted["_InputBox"].Font = Enum.Font.Unknown
+Converted["_InputBox"].PlaceholderColor3 = Color3.fromRGB(195.0000187754631, 195.0000187754631, 195.0000187754631)
+Converted["_InputBox"].PlaceholderText = "Dynamic Input"
+Converted["_InputBox"].Text = ""
+Converted["_InputBox"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_InputBox"].TextScaled = true
+Converted["_InputBox"].TextSize = 14
+Converted["_InputBox"].TextTransparency = 0.15000000596046448
+Converted["_InputBox"].TextWrapped = true
+Converted["_InputBox"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_InputBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_InputBox"].BackgroundTransparency = 1
+Converted["_InputBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_InputBox"].BorderSizePixel = 0
+Converted["_InputBox"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_InputBox"].Size = UDim2.new(1, -15, 0, 15)
+Converted["_InputBox"].ZIndex = 210
+Converted["_InputBox"].Name = "InputBox"
+Converted["_InputBox"].Parent = Converted["_InputFrame"]
+
+Converted["_UICorner80"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner80"].Parent = Converted["_InputFrame"]
+
+Converted["_UIStroke38"].Color = Color3.fromRGB(125.00000774860382, 125.00000774860382, 125.00000774860382)
+Converted["_UIStroke38"].Parent = Converted["_InputFrame"]
+
+Converted["_Description2"].Font = Enum.Font.Unknown
+Converted["_Description2"].Text = "Button"
+Converted["_Description2"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Description2"].TextSize = 14
+Converted["_Description2"].TextTransparency = 0.30000001192092896
+Converted["_Description2"].TextWrapped = true
+Converted["_Description2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Description2"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Description2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Description2"].BackgroundTransparency = 1
+Converted["_Description2"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Description2"].BorderSizePixel = 0
+Converted["_Description2"].Position = UDim2.new(0, 18, 0, 30)
+Converted["_Description2"].Size = UDim2.new(0, 333, 0, 57)
+Converted["_Description2"].Visible = false
+Converted["_Description2"].ZIndex = 205
+Converted["_Description2"].Name = "Description"
+Converted["_Description2"].Parent = Converted["_InputTemplate"]
+
+Converted["_LicenseDisplay1"].Font = Enum.Font.Unknown
+Converted["_LicenseDisplay1"].Text = "PRO FEATURE"
+Converted["_LicenseDisplay1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_LicenseDisplay1"].TextScaled = true
+Converted["_LicenseDisplay1"].TextSize = 14
+Converted["_LicenseDisplay1"].TextTransparency = 0.6000000238418579
+Converted["_LicenseDisplay1"].TextWrapped = true
+Converted["_LicenseDisplay1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_LicenseDisplay1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_LicenseDisplay1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LicenseDisplay1"].BackgroundTransparency = 1
+Converted["_LicenseDisplay1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_LicenseDisplay1"].BorderSizePixel = 0
+Converted["_LicenseDisplay1"].Position = UDim2.new(0, 18, 0, 13)
+Converted["_LicenseDisplay1"].Size = UDim2.new(0, 333, 0, 12)
+Converted["_LicenseDisplay1"].Visible = false
+Converted["_LicenseDisplay1"].ZIndex = 205
+Converted["_LicenseDisplay1"].Name = "LicenseDisplay"
+Converted["_LicenseDisplay1"].Parent = Converted["_InputTemplate"]
+
+Converted["_DropdownTemplate"].BackgroundColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_DropdownTemplate"].BackgroundTransparency = 0.8999999761581421
+Converted["_DropdownTemplate"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_DropdownTemplate"].BorderSizePixel = 0
+Converted["_DropdownTemplate"].Position = UDim2.new(0.026442308, 0, -0.013325341, 0)
+Converted["_DropdownTemplate"].Size = UDim2.new(0, 558, 0, 40)
+Converted["_DropdownTemplate"].ZIndex = 205
+Converted["_DropdownTemplate"].Name = "DropdownTemplate"
+Converted["_DropdownTemplate"].Parent = Converted["_Template9"]
+
+Converted["_UICorner81"].CornerRadius = UDim.new(0, 4)
+Converted["_UICorner81"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_List4"].AutomaticCanvasSize = Enum.AutomaticSize.Y
+Converted["_List4"].ScrollBarImageColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_List4"].ScrollBarImageTransparency = 0.699999988079071
+Converted["_List4"].ScrollBarThickness = 2
+Converted["_List4"].Active = true
+Converted["_List4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_List4"].BackgroundTransparency = 1
+Converted["_List4"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_List4"].BorderSizePixel = 0
+Converted["_List4"].Position = UDim2.new(0, 0, 0.204999968, 0)
+Converted["_List4"].Size = UDim2.new(0, 405, 0, 143)
+Converted["_List4"].Visible = false
+Converted["_List4"].ZIndex = 205
+Converted["_List4"].Name = "List"
+Converted["_List4"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_Template10"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
+Converted["_Template10"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template10"].BorderSizePixel = 0
+Converted["_Template10"].Position = UDim2.new(0.392473131, 0, 0, 0)
+Converted["_Template10"].Size = UDim2.new(0.970000029, 0, 0, 38)
+Converted["_Template10"].ZIndex = 205
+Converted["_Template10"].Name = "Template"
+Converted["_Template10"].Parent = Converted["_List4"]
+
+Converted["_UICorner82"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner82"].Parent = Converted["_Template10"]
+
+Converted["_UIStroke39"].Color = Color3.fromRGB(55.00000052154064, 55.00000052154064, 55.00000052154064)
+Converted["_UIStroke39"].Parent = Converted["_Template10"]
+
+Converted["_Title38"].Font = Enum.Font.GothamMedium
+Converted["_Title38"].Text = "Option"
+Converted["_Title38"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title38"].TextScaled = true
+Converted["_Title38"].TextSize = 14
+Converted["_Title38"].TextWrapped = true
+Converted["_Title38"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title38"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Title38"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title38"].BackgroundTransparency = 1
+Converted["_Title38"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title38"].BorderSizePixel = 0
+Converted["_Title38"].Position = UDim2.new(0.408736676, 0, 0.5, 0)
+Converted["_Title38"].Size = UDim2.new(0, 297, 0, 14)
+Converted["_Title38"].ZIndex = 205
+Converted["_Title38"].Name = "Title"
+Converted["_Title38"].Parent = Converted["_Template10"]
+
+Converted["_Interact26"].Font = Enum.Font.SourceSans
+Converted["_Interact26"].Text = ""
+Converted["_Interact26"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact26"].TextSize = 1
+Converted["_Interact26"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact26"].BackgroundTransparency = 1
+Converted["_Interact26"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact26"].BorderSizePixel = 0
+Converted["_Interact26"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Interact26"].ZIndex = 210
+Converted["_Interact26"].Name = "Interact"
+Converted["_Interact26"].Parent = Converted["_Template10"]
+
+Converted["_UIListLayout9"].Padding = UDim.new(0, 5)
+Converted["_UIListLayout9"].HorizontalAlignment = Enum.HorizontalAlignment.Center
+Converted["_UIListLayout9"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout9"].Parent = Converted["_List4"]
+
+Converted["_Placeholder7"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
+Converted["_Placeholder7"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Placeholder7"].BorderSizePixel = 0
+Converted["_Placeholder7"].LayoutOrder = -100
+Converted["_Placeholder7"].Position = UDim2.new(0.392473131, 0, 0, 0)
+Converted["_Placeholder7"].ZIndex = 205
+Converted["_Placeholder7"].Name = "Placeholder"
+Converted["_Placeholder7"].Parent = Converted["_List4"]
+
+Converted["_Selected"].Font = Enum.Font.Unknown
+Converted["_Selected"].Text = "Dropdown Option 1"
+Converted["_Selected"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Selected"].TextScaled = true
+Converted["_Selected"].TextSize = 14
+Converted["_Selected"].TextTransparency = 0.5
+Converted["_Selected"].TextWrapped = true
+Converted["_Selected"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_Selected"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_Selected"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Selected"].BackgroundTransparency = 1
+Converted["_Selected"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Selected"].BorderSizePixel = 0
+Converted["_Selected"].Position = UDim2.new(0, 443, 0, 12)
+Converted["_Selected"].Size = UDim2.new(0, 151, 0, 16)
+Converted["_Selected"].ZIndex = 205
+Converted["_Selected"].Name = "Selected"
+Converted["_Selected"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_Toggle"].Image = "rbxassetid://3926305904"
+Converted["_Toggle"].ImageColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Toggle"].ImageContent = Content
+Converted["_Toggle"].ImageRectOffset = Vector2.new(564, 284)
+Converted["_Toggle"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Toggle"].ImageTransparency = 0.5
+Converted["_Toggle"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Toggle"].BackgroundTransparency = 1
+Converted["_Toggle"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Toggle"].BorderSizePixel = 0
+Converted["_Toggle"].LayoutOrder = 9
+Converted["_Toggle"].Position = UDim2.new(0, 535, 0, 20)
+Converted["_Toggle"].Size = UDim2.new(0, 32, 0, 28)
+Converted["_Toggle"].ZIndex = 205
+Converted["_Toggle"].Name = "Toggle"
+Converted["_Toggle"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_Interact27"].Font = Enum.Font.SourceSans
+Converted["_Interact27"].Text = ""
+Converted["_Interact27"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact27"].TextSize = 14
+Converted["_Interact27"].TextTransparency = 1
+Converted["_Interact27"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact27"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact27"].BackgroundTransparency = 1
+Converted["_Interact27"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact27"].BorderSizePixel = 0
+Converted["_Interact27"].Position = UDim2.new(0, 203, 0, 21)
+Converted["_Interact27"].Size = UDim2.new(0, 406, 0, 43)
+Converted["_Interact27"].ZIndex = 210
+Converted["_Interact27"].Name = "Interact"
+Converted["_Interact27"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_UIStroke40"].Color = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_UIStroke40"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_Title39"].Font = Enum.Font.Unknown
+Converted["_Title39"].Text = "Dropdown"
+Converted["_Title39"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title39"].TextScaled = true
+Converted["_Title39"].TextSize = 14
+Converted["_Title39"].TextWrapped = true
+Converted["_Title39"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title39"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title39"].BackgroundTransparency = 1
+Converted["_Title39"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title39"].BorderSizePixel = 0
+Converted["_Title39"].Position = UDim2.new(0, 18, 0, 12)
+Converted["_Title39"].Size = UDim2.new(0, 333, 0, 16)
+Converted["_Title39"].ZIndex = 205
+Converted["_Title39"].Name = "Title"
+Converted["_Title39"].Parent = Converted["_DropdownTemplate"]
+
+Converted["_ButtonTemplate"].BackgroundColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_ButtonTemplate"].BackgroundTransparency = 0.8999999761581421
+Converted["_ButtonTemplate"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ButtonTemplate"].BorderSizePixel = 0
+Converted["_ButtonTemplate"].Position = UDim2.new(0.044861339, 0, 0.501742184, 0)
+Converted["_ButtonTemplate"].Size = UDim2.new(0, 558, 0, 40)
+Converted["_ButtonTemplate"].ZIndex = 205
+Converted["_ButtonTemplate"].Name = "ButtonTemplate"
+Converted["_ButtonTemplate"].Parent = Converted["_Template9"]
+
+Converted["_UICorner83"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner83"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_UIStroke41"].Color = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_UIStroke41"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_Note"].Font = Enum.Font.Unknown
+Converted["_Note"].Text = "tap to interact"
+Converted["_Note"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Note"].TextScaled = true
+Converted["_Note"].TextSize = 14
+Converted["_Note"].TextTransparency = 0.6000000238418579
+Converted["_Note"].TextWrapped = true
+Converted["_Note"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_Note"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_Note"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Note"].BackgroundTransparency = 1
+Converted["_Note"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Note"].BorderSizePixel = 0
+Converted["_Note"].Position = UDim2.new(1, -20, 0.5, 0)
+Converted["_Note"].Size = UDim2.new(0, 139, 0, 15)
+Converted["_Note"].ZIndex = 205
+Converted["_Note"].Name = "Note"
+Converted["_Note"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_Interact28"].Font = Enum.Font.SourceSans
+Converted["_Interact28"].Text = ""
+Converted["_Interact28"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact28"].TextSize = 14
+Converted["_Interact28"].TextTransparency = 1
+Converted["_Interact28"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact28"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact28"].BackgroundTransparency = 1
+Converted["_Interact28"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact28"].BorderSizePixel = 0
+Converted["_Interact28"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Interact28"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Interact28"].ZIndex = 210
+Converted["_Interact28"].Name = "Interact"
+Converted["_Interact28"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_Title40"].Font = Enum.Font.Unknown
+Converted["_Title40"].Text = "Button"
+Converted["_Title40"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title40"].TextScaled = true
+Converted["_Title40"].TextSize = 14
+Converted["_Title40"].TextWrapped = true
+Converted["_Title40"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title40"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title40"].BackgroundTransparency = 1
+Converted["_Title40"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title40"].BorderSizePixel = 0
+Converted["_Title40"].Position = UDim2.new(0, 18, 0, 12)
+Converted["_Title40"].Size = UDim2.new(0, 333, 0, 16)
+Converted["_Title40"].ZIndex = 205
+Converted["_Title40"].Name = "Title"
+Converted["_Title40"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_Description3"].Font = Enum.Font.Unknown
+Converted["_Description3"].Text = "Button"
+Converted["_Description3"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Description3"].TextSize = 14
+Converted["_Description3"].TextTransparency = 0.30000001192092896
+Converted["_Description3"].TextWrapped = true
+Converted["_Description3"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Description3"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Description3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Description3"].BackgroundTransparency = 1
+Converted["_Description3"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Description3"].BorderSizePixel = 0
+Converted["_Description3"].Position = UDim2.new(0, 18, 0, 43)
+Converted["_Description3"].Size = UDim2.new(0, 333, 0, 57)
+Converted["_Description3"].Visible = false
+Converted["_Description3"].ZIndex = 205
+Converted["_Description3"].Name = "Description"
+Converted["_Description3"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_LicenseDisplay2"].Font = Enum.Font.Unknown
+Converted["_LicenseDisplay2"].Text = "PRO FEATURE"
+Converted["_LicenseDisplay2"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_LicenseDisplay2"].TextScaled = true
+Converted["_LicenseDisplay2"].TextSize = 14
+Converted["_LicenseDisplay2"].TextTransparency = 0.6000000238418579
+Converted["_LicenseDisplay2"].TextWrapped = true
+Converted["_LicenseDisplay2"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_LicenseDisplay2"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_LicenseDisplay2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LicenseDisplay2"].BackgroundTransparency = 1
+Converted["_LicenseDisplay2"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_LicenseDisplay2"].BorderSizePixel = 0
+Converted["_LicenseDisplay2"].Position = UDim2.new(0, 18, 0, 13)
+Converted["_LicenseDisplay2"].Size = UDim2.new(0, 333, 0, 12)
+Converted["_LicenseDisplay2"].Visible = false
+Converted["_LicenseDisplay2"].ZIndex = 205
+Converted["_LicenseDisplay2"].Name = "LicenseDisplay"
+Converted["_LicenseDisplay2"].Parent = Converted["_ButtonTemplate"]
+
+Converted["_Placeholder8"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Placeholder8"].BackgroundTransparency = 1
+Converted["_Placeholder8"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Placeholder8"].BorderSizePixel = 0
+Converted["_Placeholder8"].LayoutOrder = 1000
+Converted["_Placeholder8"].Position = UDim2.new(0.0473083183, 0, 0, 0)
+Converted["_Placeholder8"].ZIndex = 205
+Converted["_Placeholder8"].Name = "Placeholder"
+Converted["_Placeholder8"].Parent = Converted["_Template9"]
+
+Converted["_UIGradient40"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(15.000000055879354, 15.000000055879354, 15.000000055879354)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(180.00000447034836, 0, 0))
+}
+Converted["_UIGradient40"].Offset = Vector2.new(0, 0.6499999761581421)
+Converted["_UIGradient40"].Rotation = 80
+Converted["_UIGradient40"].Parent = Converted["_Settings1"]
+
+Converted["_Starlight"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Starlight"].BackgroundColor3 = Color3.fromRGB(25.000000409781933, 25.000000409781933, 25.000000409781933)
+Converted["_Starlight"].BackgroundTransparency = 0.3499999940395355
+Converted["_Starlight"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Starlight"].Position = UDim2.new(0.5, 0, 0.300000012, 0)
+Converted["_Starlight"].Size = UDim2.new(0, 641, 0, 45)
+Converted["_Starlight"].Visible = false
+Converted["_Starlight"].Name = "Starlight"
+Converted["_Starlight"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner84"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner84"].Parent = Converted["_Starlight"]
+
+Converted["_AutoComplete"].Font = Enum.Font.Unknown
+Converted["_AutoComplete"].Text = ""
+Converted["_AutoComplete"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_AutoComplete"].TextScaled = true
+Converted["_AutoComplete"].TextSize = 14
+Converted["_AutoComplete"].TextTransparency = 0.30000001192092896
+Converted["_AutoComplete"].TextWrapped = true
+Converted["_AutoComplete"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_AutoComplete"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_AutoComplete"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_AutoComplete"].BackgroundTransparency = 1
+Converted["_AutoComplete"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_AutoComplete"].BorderSizePixel = 0
+Converted["_AutoComplete"].Position = UDim2.new(0.334716022, 0, 0.499999672, 0)
+Converted["_AutoComplete"].Size = UDim2.new(0.608632267, 0, 0.431177437, 0)
+Converted["_AutoComplete"].ZIndex = 5
+Converted["_AutoComplete"].Name = "AutoComplete"
+Converted["_AutoComplete"].Parent = Converted["_Starlight"]
+
+Converted["_CompleteNote"].Font = Enum.Font.Unknown
+Converted["_CompleteNote"].RichText = true
+Converted["_CompleteNote"].Text = "tap <b>Enter</b>"
+Converted["_CompleteNote"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CompleteNote"].TextScaled = true
+Converted["_CompleteNote"].TextSize = 14
+Converted["_CompleteNote"].TextTransparency = 1
+Converted["_CompleteNote"].TextWrapped = true
+Converted["_CompleteNote"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_CompleteNote"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_CompleteNote"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CompleteNote"].BackgroundTransparency = 1
+Converted["_CompleteNote"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_CompleteNote"].BorderSizePixel = 0
+Converted["_CompleteNote"].Position = UDim2.new(0.899999976, 0, 0.5, 0)
+Converted["_CompleteNote"].Size = UDim2.new(0.134144336, 0, 0.379494786, 0)
+Converted["_CompleteNote"].ZIndex = 6
+Converted["_CompleteNote"].Name = "CompleteNote"
+Converted["_CompleteNote"].Parent = Converted["_Starlight"]
+
+Converted["_CommandBox"].Font = Enum.Font.Unknown
+Converted["_CommandBox"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CommandBox"].PlaceholderText = "start typing"
+Converted["_CommandBox"].Text = ""
+Converted["_CommandBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CommandBox"].TextScaled = true
+Converted["_CommandBox"].TextSize = 14
+Converted["_CommandBox"].TextTransparency = 0.5
+Converted["_CommandBox"].TextWrapped = true
+Converted["_CommandBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_CommandBox"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_CommandBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CommandBox"].BackgroundTransparency = 1
+Converted["_CommandBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_CommandBox"].BorderSizePixel = 0
+Converted["_CommandBox"].Position = UDim2.new(0.334716022, 0, 0.50000006, 0)
+Converted["_CommandBox"].Size = UDim2.new(0.608610988, 0, 0.431247383, 0)
+Converted["_CommandBox"].ZIndex = 5
+Converted["_CommandBox"].Name = "CommandBox"
+Converted["_CommandBox"].Parent = Converted["_Starlight"]
+
+Converted["_RayfieldView"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_RayfieldView"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RayfieldView"].BackgroundTransparency = 1
+Converted["_RayfieldView"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_RayfieldView"].Position = UDim2.new(0.5, 0, 0, 55)
+Converted["_RayfieldView"].Size = UDim2.new(1, 0, 0, 50)
+Converted["_RayfieldView"].Name = "RayfieldView"
+Converted["_RayfieldView"].Parent = Converted["_Starlight"]
+
+Converted["_Toggle1"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Toggle1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Toggle1"].BorderSizePixel = 0
+Converted["_Toggle1"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Toggle1"].Visible = false
+Converted["_Toggle1"].Name = "Toggle"
+Converted["_Toggle1"].Parent = Converted["_RayfieldView"]
+
+Converted["_Title41"].Font = Enum.Font.GothamMedium
+Converted["_Title41"].Text = "Aimbot"
+Converted["_Title41"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title41"].TextScaled = true
+Converted["_Title41"].TextSize = 14
+Converted["_Title41"].TextWrapped = true
+Converted["_Title41"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title41"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Title41"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title41"].BackgroundTransparency = 1
+Converted["_Title41"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title41"].BorderSizePixel = 0
+Converted["_Title41"].Position = UDim2.new(0, 20, 0.5, 0)
+Converted["_Title41"].Size = UDim2.new(0, 552, 0, 15)
+Converted["_Title41"].Name = "Title"
+Converted["_Title41"].Parent = Converted["_Toggle1"]
+
+Converted["_Interact29"].Font = Enum.Font.SourceSans
+Converted["_Interact29"].Text = ""
+Converted["_Interact29"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact29"].TextSize = 14
+Converted["_Interact29"].TextTransparency = 1
+Converted["_Interact29"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact29"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact29"].BackgroundTransparency = 1
+Converted["_Interact29"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact29"].BorderSizePixel = 0
+Converted["_Interact29"].Position = UDim2.new(0.815322578, 0, 0.5, 0)
+Converted["_Interact29"].Size = UDim2.new(0.369354695, 0, 1, 0)
+Converted["_Interact29"].ZIndex = 5
+Converted["_Interact29"].Name = "Interact"
+Converted["_Interact29"].Parent = Converted["_Toggle1"]
+
+Converted["_Switch1"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_Switch1"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
+Converted["_Switch1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Switch1"].BorderSizePixel = 0
+Converted["_Switch1"].Position = UDim2.new(1, -20, 0.5, 0)
+Converted["_Switch1"].Size = UDim2.new(0, 43, 0, 21)
+Converted["_Switch1"].Name = "Switch"
+Converted["_Switch1"].Parent = Converted["_Toggle1"]
+
+Converted["_UICorner85"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner85"].Parent = Converted["_Switch1"]
+
+Converted["_UIStroke42"].Color = Color3.fromRGB(65.0000037252903, 65.0000037252903, 65.0000037252903)
+Converted["_UIStroke42"].Parent = Converted["_Switch1"]
+
+Converted["_Shadow16"].Image = "rbxassetid://3602733521"
+Converted["_Shadow16"].ImageColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Shadow16"].ImageContent = Content
+Converted["_Shadow16"].ImageTransparency = 0.6000000238418579
+Converted["_Shadow16"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow16"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow16"].BackgroundTransparency = 1
+Converted["_Shadow16"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow16"].BorderSizePixel = 0
+Converted["_Shadow16"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow16"].Size = UDim2.new(1, 2, 1, 2)
+Converted["_Shadow16"].ZIndex = 3
+Converted["_Shadow16"].Name = "Shadow"
+Converted["_Shadow16"].Parent = Converted["_Switch1"]
+
+Converted["_UICorner86"].CornerRadius = UDim.new(0, 15)
+Converted["_UICorner86"].Parent = Converted["_Shadow16"]
+
+Converted["_Indicator1"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Indicator1"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Indicator1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Indicator1"].BorderSizePixel = 0
+Converted["_Indicator1"].Position = UDim2.new(1, -40, 0.5, 0)
+Converted["_Indicator1"].Size = UDim2.new(0, 17, 0, 17)
+Converted["_Indicator1"].Name = "Indicator"
+Converted["_Indicator1"].Parent = Converted["_Switch1"]
+
+Converted["_UICorner87"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner87"].Parent = Converted["_Indicator1"]
+
+Converted["_UIStroke43"].Color = Color3.fromRGB(125.00000014901161, 125.00000014901161, 125.00000014901161)
+Converted["_UIStroke43"].Thickness = 1.2000000476837158
+Converted["_UIStroke43"].Parent = Converted["_Indicator1"]
+
+Converted["_UICorner88"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner88"].Parent = Converted["_Toggle1"]
+
+Converted["_Slider"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Slider"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Slider"].BorderSizePixel = 0
+Converted["_Slider"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Slider"].Visible = false
+Converted["_Slider"].Name = "Slider"
+Converted["_Slider"].Parent = Converted["_RayfieldView"]
+
+Converted["_Main"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(43.00000123679638, 105.00000134110451, 159.0000057220459)
+Converted["_Main"].BackgroundTransparency = 0.800000011920929
+Converted["_Main"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Main"].BorderSizePixel = 0
+Converted["_Main"].Position = UDim2.new(0.800000012, 0, 0.5, 0)
+Converted["_Main"].Size = UDim2.new(0, 222, 0, 30)
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_Slider"]
+
+Converted["_UIStroke44"].Color = Color3.fromRGB(48.000000938773155, 119.00000050663948, 177.0000046491623)
+Converted["_UIStroke44"].Thickness = 1.2000000476837158
+Converted["_UIStroke44"].Parent = Converted["_Main"]
+
+Converted["_UICorner89"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner89"].Parent = Converted["_Main"]
+
+Converted["_Progress1"].BackgroundColor3 = Color3.fromRGB(43.00000123679638, 105.00000134110451, 159.0000057220459)
+Converted["_Progress1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Progress1"].BorderSizePixel = 0
+Converted["_Progress1"].Size = UDim2.new(0.800968468, 0, 1, 0)
+Converted["_Progress1"].Name = "Progress"
+Converted["_Progress1"].Parent = Converted["_Main"]
+
+Converted["_UICorner90"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner90"].Parent = Converted["_Progress1"]
+
+Converted["_UIStroke45"].Color = Color3.fromRGB(62.00000390410423, 158.00000578165054, 231.0000166296959)
+Converted["_UIStroke45"].Thickness = 1.2000000476837158
+Converted["_UIStroke45"].Parent = Converted["_Progress1"]
+
+Converted["_Information1"].Font = Enum.Font.GothamMedium
+Converted["_Information1"].Text = "750 studs"
+Converted["_Information1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Information1"].TextScaled = true
+Converted["_Information1"].TextSize = 14
+Converted["_Information1"].TextTransparency = 0.4000000059604645
+Converted["_Information1"].TextWrapped = true
+Converted["_Information1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Information1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Information1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Information1"].BackgroundTransparency = 1
+Converted["_Information1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Information1"].BorderSizePixel = 0
+Converted["_Information1"].Position = UDim2.new(0.453598171, 0, 0.5, 0)
+Converted["_Information1"].Size = UDim2.new(0, 168, 0, 15)
+Converted["_Information1"].ZIndex = 5
+Converted["_Information1"].Name = "Information"
+Converted["_Information1"].Parent = Converted["_Main"]
+
+Converted["_Shadow17"].Image = "rbxassetid://3602733521"
+Converted["_Shadow17"].ImageColor3 = Color3.fromRGB(20.000000707805157, 20.000000707805157, 20.000000707805157)
+Converted["_Shadow17"].ImageContent = Content
+Converted["_Shadow17"].ImageTransparency = 0.699999988079071
+Converted["_Shadow17"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow17"].BackgroundTransparency = 1
+Converted["_Shadow17"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow17"].BorderSizePixel = 0
+Converted["_Shadow17"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow17"].Size = UDim2.new(0.999999642, 0, 1.00000012, 0)
+Converted["_Shadow17"].ZIndex = 3
+Converted["_Shadow17"].Name = "Shadow"
+Converted["_Shadow17"].Parent = Converted["_Main"]
+
+Converted["_UICorner91"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner91"].Parent = Converted["_Shadow17"]
+
+Converted["_Interact30"].Font = Enum.Font.SourceSans
+Converted["_Interact30"].Text = ""
+Converted["_Interact30"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact30"].TextSize = 14
+Converted["_Interact30"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact30"].BackgroundTransparency = 1
+Converted["_Interact30"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact30"].BorderSizePixel = 0
+Converted["_Interact30"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Interact30"].ZIndex = 10
+Converted["_Interact30"].Name = "Interact"
+Converted["_Interact30"].Parent = Converted["_Main"]
+
+Converted["_Title42"].Font = Enum.Font.GothamMedium
+Converted["_Title42"].Text = "Slider"
+Converted["_Title42"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title42"].TextScaled = true
+Converted["_Title42"].TextSize = 14
+Converted["_Title42"].TextWrapped = true
+Converted["_Title42"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title42"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Title42"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title42"].BackgroundTransparency = 1
+Converted["_Title42"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title42"].BorderSizePixel = 0
+Converted["_Title42"].Position = UDim2.new(0, 20, 0.5, 0)
+Converted["_Title42"].Size = UDim2.new(0, 371, 0, 15)
+Converted["_Title42"].Name = "Title"
+Converted["_Title42"].Parent = Converted["_Slider"]
+
+Converted["_UICorner92"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner92"].Parent = Converted["_Slider"]
+
+Converted["_Input1"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Input1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Input1"].BorderSizePixel = 0
+Converted["_Input1"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Input1"].Visible = false
+Converted["_Input1"].Name = "Input"
+Converted["_Input1"].Parent = Converted["_RayfieldView"]
+
+Converted["_UICorner93"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner93"].Parent = Converted["_Input1"]
+
+Converted["_InputFrame1"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_InputFrame1"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
+Converted["_InputFrame1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_InputFrame1"].BorderSizePixel = 0
+Converted["_InputFrame1"].Position = UDim2.new(1, -20, 0.5, 0)
+Converted["_InputFrame1"].Size = UDim2.new(0, 120, 0, 30)
+Converted["_InputFrame1"].Name = "InputFrame"
+Converted["_InputFrame1"].Parent = Converted["_Input1"]
+
+Converted["_InputBox1"].ClearTextOnFocus = false
+Converted["_InputBox1"].Font = Enum.Font.GothamMedium
+Converted["_InputBox1"].PlaceholderText = "Dynamic Input"
+Converted["_InputBox1"].Text = ""
+Converted["_InputBox1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_InputBox1"].TextSize = 14
+Converted["_InputBox1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_InputBox1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_InputBox1"].BackgroundTransparency = 1
+Converted["_InputBox1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_InputBox1"].BorderSizePixel = 0
+Converted["_InputBox1"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_InputBox1"].Size = UDim2.new(1, -15, 0, 14)
+Converted["_InputBox1"].Name = "InputBox"
+Converted["_InputBox1"].Parent = Converted["_InputFrame1"]
+
+Converted["_UIStroke46"].Color = Color3.fromRGB(65.0000037252903, 65.0000037252903, 65.0000037252903)
+Converted["_UIStroke46"].Parent = Converted["_InputFrame1"]
+
+Converted["_UICorner94"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner94"].Parent = Converted["_InputFrame1"]
+
+Converted["_Title43"].Font = Enum.Font.GothamMedium
+Converted["_Title43"].Text = "Aimbot"
+Converted["_Title43"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title43"].TextScaled = true
+Converted["_Title43"].TextSize = 14
+Converted["_Title43"].TextWrapped = true
+Converted["_Title43"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title43"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Title43"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title43"].BackgroundTransparency = 1
+Converted["_Title43"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title43"].BorderSizePixel = 0
+Converted["_Title43"].Position = UDim2.new(0, 20, 0.5, 0)
+Converted["_Title43"].Size = UDim2.new(0, 468, 0, 15)
+Converted["_Title43"].Name = "Title"
+Converted["_Title43"].Parent = Converted["_Input1"]
+
+Converted["_Keybind"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Keybind"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Keybind"].BorderSizePixel = 0
+Converted["_Keybind"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Keybind"].Visible = false
+Converted["_Keybind"].Name = "Keybind"
+Converted["_Keybind"].Parent = Converted["_RayfieldView"]
+
+Converted["_UICorner95"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner95"].Parent = Converted["_Keybind"]
+
+Converted["_KeybindFrame"].AnchorPoint = Vector2.new(1, 0.5)
+Converted["_KeybindFrame"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
+Converted["_KeybindFrame"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_KeybindFrame"].BorderSizePixel = 0
+Converted["_KeybindFrame"].Position = UDim2.new(1, -20, 0.5, 0)
+Converted["_KeybindFrame"].Size = UDim2.new(0, 34, 0, 30)
+Converted["_KeybindFrame"].Name = "KeybindFrame"
+Converted["_KeybindFrame"].Parent = Converted["_Keybind"]
+
+Converted["_KeybindBox"].ClearTextOnFocus = false
+Converted["_KeybindBox"].Font = Enum.Font.GothamMedium
+Converted["_KeybindBox"].PlaceholderText = "Keybind"
+Converted["_KeybindBox"].Text = "Q"
+Converted["_KeybindBox"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_KeybindBox"].TextSize = 14
+Converted["_KeybindBox"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_KeybindBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_KeybindBox"].BackgroundTransparency = 1
+Converted["_KeybindBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_KeybindBox"].BorderSizePixel = 0
+Converted["_KeybindBox"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_KeybindBox"].Size = UDim2.new(1, -15, 0, 14)
+Converted["_KeybindBox"].Name = "KeybindBox"
+Converted["_KeybindBox"].Parent = Converted["_KeybindFrame"]
+
+Converted["_UIStroke47"].Color = Color3.fromRGB(65.0000037252903, 65.0000037252903, 65.0000037252903)
+Converted["_UIStroke47"].Parent = Converted["_KeybindFrame"]
+
+Converted["_UICorner96"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner96"].Parent = Converted["_KeybindFrame"]
+
+Converted["_Title44"].Font = Enum.Font.GothamMedium
+Converted["_Title44"].Text = "Aimbot"
+Converted["_Title44"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title44"].TextScaled = true
+Converted["_Title44"].TextSize = 14
+Converted["_Title44"].TextWrapped = true
+Converted["_Title44"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title44"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Title44"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title44"].BackgroundTransparency = 1
+Converted["_Title44"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title44"].BorderSizePixel = 0
+Converted["_Title44"].Position = UDim2.new(0, 20, 0.5, 0)
+Converted["_Title44"].Size = UDim2.new(0, 468, 0, 15)
+Converted["_Title44"].Name = "Title"
+Converted["_Title44"].Parent = Converted["_Keybind"]
+
+Converted["_Button"].BackgroundColor3 = Color3.fromRGB(35.00000171363354, 35.00000171363354, 35.00000171363354)
+Converted["_Button"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Button"].BorderSizePixel = 0
+Converted["_Button"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Button"].Visible = false
+Converted["_Button"].Name = "Button"
+Converted["_Button"].Parent = Converted["_RayfieldView"]
+
+Converted["_UICorner97"].CornerRadius = UDim.new(0, 11)
+Converted["_UICorner97"].Parent = Converted["_Button"]
+
+Converted["_ElementIndicator"].Font = Enum.Font.GothamMedium
+Converted["_ElementIndicator"].Text = "button"
+Converted["_ElementIndicator"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ElementIndicator"].TextScaled = true
+Converted["_ElementIndicator"].TextSize = 14
+Converted["_ElementIndicator"].TextTransparency = 0.8999999761581421
+Converted["_ElementIndicator"].TextWrapped = true
+Converted["_ElementIndicator"].TextXAlignment = Enum.TextXAlignment.Right
+Converted["_ElementIndicator"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ElementIndicator"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ElementIndicator"].BackgroundTransparency = 1
+Converted["_ElementIndicator"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ElementIndicator"].BorderSizePixel = 0
+Converted["_ElementIndicator"].Position = UDim2.new(0.883000016, 0, 0.5, 0)
+Converted["_ElementIndicator"].Size = UDim2.new(0, 108, 0, 15)
+Converted["_ElementIndicator"].Name = "ElementIndicator"
+Converted["_ElementIndicator"].Parent = Converted["_Button"]
+
+Converted["_Interact31"].Font = Enum.Font.SourceSans
+Converted["_Interact31"].Text = ""
+Converted["_Interact31"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Interact31"].TextSize = 14
+Converted["_Interact31"].TextTransparency = 1
+Converted["_Interact31"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Interact31"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Interact31"].BackgroundTransparency = 1
+Converted["_Interact31"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Interact31"].BorderSizePixel = 0
+Converted["_Interact31"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Interact31"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Interact31"].ZIndex = 5
+Converted["_Interact31"].Name = "Interact"
+Converted["_Interact31"].Parent = Converted["_Button"]
+
+Converted["_Title45"].Font = Enum.Font.GothamMedium
+Converted["_Title45"].Text = "Aimbot"
+Converted["_Title45"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title45"].TextScaled = true
+Converted["_Title45"].TextSize = 14
+Converted["_Title45"].TextWrapped = true
+Converted["_Title45"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title45"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_Title45"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title45"].BackgroundTransparency = 1
+Converted["_Title45"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title45"].BorderSizePixel = 0
+Converted["_Title45"].Position = UDim2.new(0, 20, 0.5, 0)
+Converted["_Title45"].Size = UDim2.new(0, 468, 0, 15)
+Converted["_Title45"].Name = "Title"
+Converted["_Title45"].Parent = Converted["_Button"]
+
+Converted["_Shadow18"].Image = "rbxassetid://3523728077"
+Converted["_Shadow18"].ImageColor3 = Color3.fromRGB(33.00000183284283, 33.00000183284283, 33.00000183284283)
+Converted["_Shadow18"].ImageContent = Content
+Converted["_Shadow18"].ImageTransparency = 0.8199999928474426
+Converted["_Shadow18"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow18"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow18"].BackgroundTransparency = 1
+Converted["_Shadow18"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow18"].BorderSizePixel = 0
+Converted["_Shadow18"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow18"].Size = UDim2.new(1.11060238, 0, 1.92164946, 0)
+Converted["_Shadow18"].ZIndex = 0
+Converted["_Shadow18"].Name = "Shadow"
+Converted["_Shadow18"].Parent = Converted["_Starlight"]
+
+Converted["_BlurModule1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_BlurModule1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_BlurModule1"].BackgroundTransparency = 1
+Converted["_BlurModule1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_BlurModule1"].BorderSizePixel = 0
+Converted["_BlurModule1"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_BlurModule1"].Size = UDim2.new(1, -28, 1, -28)
+Converted["_BlurModule1"].Name = "BlurModule"
+Converted["_BlurModule1"].Parent = Converted["_Starlight"]
+
+Converted["_ModeratorDetectionPrompt"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_ModeratorDetectionPrompt"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ModeratorDetectionPrompt"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ModeratorDetectionPrompt"].Position = UDim2.new(0.5, 0, 0.200000003, 0)
+Converted["_ModeratorDetectionPrompt"].Size = UDim2.new(0, 300, 0, 186)
+Converted["_ModeratorDetectionPrompt"].Visible = false
+Converted["_ModeratorDetectionPrompt"].Name = "ModeratorDetectionPrompt"
+Converted["_ModeratorDetectionPrompt"].Parent = Converted["_Sirius"]
+
+Converted["_Subtitle13"].Font = Enum.Font.Unknown
+Converted["_Subtitle13"].Text = "A moderator for this game has joined your server."
+Converted["_Subtitle13"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_Subtitle13"].TextScaled = true
+Converted["_Subtitle13"].TextSize = 14
+Converted["_Subtitle13"].TextWrapped = true
+Converted["_Subtitle13"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Subtitle13"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle13"].BackgroundTransparency = 1
+Converted["_Subtitle13"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Subtitle13"].Position = UDim2.new(0.0596667491, 0, 0.183494657, 0)
+Converted["_Subtitle13"].Size = UDim2.new(0, 214, 0, 30)
+Converted["_Subtitle13"].Name = "Subtitle"
+Converted["_Subtitle13"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_UIGradient41"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(180.00000447034836, 0, 0))
+}
+Converted["_UIGradient41"].Offset = Vector2.new(0, 0.6499999761581421)
+Converted["_UIGradient41"].Rotation = 80
+Converted["_UIGradient41"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Title46"].Font = Enum.Font.Unknown
+Converted["_Title46"].Text = "Moderator Detection"
+Converted["_Title46"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title46"].TextScaled = true
+Converted["_Title46"].TextSize = 14
+Converted["_Title46"].TextWrapped = true
+Converted["_Title46"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title46"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title46"].BackgroundTransparency = 1
+Converted["_Title46"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title46"].Position = UDim2.new(0.0599999987, 0, 0.0904946253, 0)
+Converted["_Title46"].Size = UDim2.new(0, 233, 0, 16)
+Converted["_Title46"].Name = "Title"
+Converted["_Title46"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_UICorner98"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner98"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Avatar2"].Image = "rbxassetid://9333366626"
+Converted["_Avatar2"].ImageContent = Content
+Converted["_Avatar2"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Avatar2"].BackgroundTransparency = 0.699999988079071
+Converted["_Avatar2"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Avatar2"].Position = UDim2.new(0.0572499596, 0, 0.433306307, 0)
+Converted["_Avatar2"].Size = UDim2.new(0, 42, 0, 42)
+Converted["_Avatar2"].Name = "Avatar"
+Converted["_Avatar2"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_UICorner99"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner99"].Parent = Converted["_Avatar2"]
+
+Converted["_DisplayName1"].Font = Enum.Font.Unknown
+Converted["_DisplayName1"].Text = "phil23"
+Converted["_DisplayName1"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_DisplayName1"].TextScaled = true
+Converted["_DisplayName1"].TextSize = 14
+Converted["_DisplayName1"].TextWrapped = true
+Converted["_DisplayName1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_DisplayName1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DisplayName1"].BackgroundTransparency = 1
+Converted["_DisplayName1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_DisplayName1"].Position = UDim2.new(0.222666666, 0, 0.463870943, 0)
+Converted["_DisplayName1"].Size = UDim2.new(0, 199, 0, 16)
+Converted["_DisplayName1"].Name = "DisplayName"
+Converted["_DisplayName1"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Leave"].Font = Enum.Font.Unknown
+Converted["_Leave"].Text = "Leave"
+Converted["_Leave"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Leave"].TextSize = 15
+Converted["_Leave"].TextTransparency = 0.05000000074505806
+Converted["_Leave"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Leave"].BackgroundTransparency = 0.699999988079071
+Converted["_Leave"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Leave"].Position = UDim2.new(0.688249946, 0, 0.759623647, 0)
+Converted["_Leave"].Size = UDim2.new(0, 82, 0, 36)
+Converted["_Leave"].Name = "Leave"
+Converted["_Leave"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_UICorner100"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner100"].Parent = Converted["_Leave"]
+
+Converted["_Serverhop1"].Font = Enum.Font.Unknown
+Converted["_Serverhop1"].Text = "Serverhop"
+Converted["_Serverhop1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Serverhop1"].TextSize = 15
+Converted["_Serverhop1"].TextTransparency = 0.05000000074505806
+Converted["_Serverhop1"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_Serverhop1"].BackgroundTransparency = 0.699999988079071
+Converted["_Serverhop1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Serverhop1"].Position = UDim2.new(0.305000007, 0, 0.75999999, 0)
+Converted["_Serverhop1"].Size = UDim2.new(0, 110, 0, 36)
+Converted["_Serverhop1"].Name = "Serverhop"
+Converted["_Serverhop1"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_UICorner101"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner101"].Parent = Converted["_Serverhop1"]
+
+Converted["_ServersAvailableFade"].Font = Enum.Font.Unknown
+Converted["_ServersAvailableFade"].Text = "Servers Available"
+Converted["_ServersAvailableFade"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ServersAvailableFade"].TextScaled = true
+Converted["_ServersAvailableFade"].TextSize = 14
+Converted["_ServersAvailableFade"].TextTransparency = 0.5
+Converted["_ServersAvailableFade"].TextWrapped = true
+Converted["_ServersAvailableFade"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ServersAvailableFade"].BackgroundTransparency = 1
+Converted["_ServersAvailableFade"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ServersAvailableFade"].Position = UDim2.new(0.326999992, 0, 0.670000017, 0)
+Converted["_ServersAvailableFade"].Size = UDim2.new(0, 92, 0, 12)
+Converted["_ServersAvailableFade"].Visible = false
+Converted["_ServersAvailableFade"].Name = "ServersAvailableFade"
+Converted["_ServersAvailableFade"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Rank"].Font = Enum.Font.Unknown
+Converted["_Rank"].Text = "Admin"
+Converted["_Rank"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_Rank"].TextScaled = true
+Converted["_Rank"].TextSize = 14
+Converted["_Rank"].TextWrapped = true
+Converted["_Rank"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Rank"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Rank"].BackgroundTransparency = 1
+Converted["_Rank"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Rank"].Position = UDim2.new(0.222666666, 0, 0.551623642, 0)
+Converted["_Rank"].Size = UDim2.new(0, 199, 0, 14)
+Converted["_Rank"].Name = "Rank"
+Converted["_Rank"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Close3"].Image = "rbxassetid://3926305904"
+Converted["_Close3"].ImageContent = Content
+Converted["_Close3"].ImageRectOffset = Vector2.new(924, 724)
+Converted["_Close3"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Close3"].ImageTransparency = 0.6000000238418579
+Converted["_Close3"].AnchorPoint = Vector2.new(1, 0)
+Converted["_Close3"].BackgroundTransparency = 1
+Converted["_Close3"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Close3"].BorderSizePixel = 0
+Converted["_Close3"].Position = UDim2.new(1, -15, 0, 15)
+Converted["_Close3"].Size = UDim2.new(0, 18, 0, 18)
+Converted["_Close3"].ZIndex = 2
+Converted["_Close3"].Name = "Close"
+Converted["_Close3"].Parent = Converted["_ModeratorDetectionPrompt"]
+
+Converted["_Status"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_Status"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Status"].BackgroundTransparency = 1
+Converted["_Status"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Status"].BorderSizePixel = 0
+Converted["_Status"].Position = UDim2.new(0.5, 0, 0, 20)
+Converted["_Status"].Size = UDim2.new(0, 350, 0, 60)
+Converted["_Status"].Visible = false
+Converted["_Status"].Name = "Status"
+Converted["_Status"].Parent = Converted["_Sirius"]
+
+Converted["_Title47"].Font = Enum.Font.Unknown
+Converted["_Title47"].Text = "Unknown Status"
+Converted["_Title47"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title47"].TextSize = 16
+Converted["_Title47"].TextTransparency = 0.6000000238418579
+Converted["_Title47"].TextWrapped = true
+Converted["_Title47"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_Title47"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title47"].BackgroundTransparency = 1
+Converted["_Title47"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title47"].BorderSizePixel = 0
+Converted["_Title47"].Position = UDim2.new(0.5, 0, 0, 0)
+Converted["_Title47"].Size = UDim2.new(1, 0, 0, 16)
+Converted["_Title47"].ZIndex = 150
+Converted["_Title47"].Name = "Title"
+Converted["_Title47"].Parent = Converted["_Status"]
+
+Converted["_Line"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_Line"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Line"].BackgroundTransparency = 0.8999999761581421
+Converted["_Line"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Line"].BorderSizePixel = 0
+Converted["_Line"].Position = UDim2.new(0.5, 0, 0, 22)
+Converted["_Line"].Size = UDim2.new(1, 0, 0, 2)
+Converted["_Line"].Name = "Line"
+Converted["_Line"].Parent = Converted["_Status"]
+
+Converted["_Toggle2"].Image = "rbxassetid://3926305904"
+Converted["_Toggle2"].ImageContent = Content
+Converted["_Toggle2"].ImageRectOffset = Vector2.new(564, 284)
+Converted["_Toggle2"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Toggle2"].AnchorPoint = Vector2.new(0.5, 1)
+Converted["_Toggle2"].BackgroundTransparency = 1
+Converted["_Toggle2"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Toggle2"].LayoutOrder = 9
+Converted["_Toggle2"].Position = UDim2.new(0.5, 0, 1, -85)
+Converted["_Toggle2"].Size = UDim2.new(0, 32, 0, 28)
+Converted["_Toggle2"].ZIndex = 150
+Converted["_Toggle2"].Name = "Toggle"
+Converted["_Toggle2"].Parent = Converted["_Sirius"]
+
+Converted["_GameDetection"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_GameDetection"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_GameDetection"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_GameDetection"].BorderSizePixel = 0
+Converted["_GameDetection"].Position = UDim2.new(0.5, 0, 0, 200)
+Converted["_GameDetection"].Size = UDim2.new(0, 473, 0, 154)
+Converted["_GameDetection"].Visible = false
+Converted["_GameDetection"].Name = "GameDetection"
+Converted["_GameDetection"].Parent = Converted["_Sirius"]
+
+Converted["_UICorner102"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner102"].Parent = Converted["_GameDetection"]
+
+Converted["_Thumbnail"].Image = "rbxassetid://9319332188"
+Converted["_Thumbnail"].ImageContent = Content
+Converted["_Thumbnail"].ImageTransparency = 0.5
+Converted["_Thumbnail"].ScaleType = Enum.ScaleType.Crop
+Converted["_Thumbnail"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Thumbnail"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Thumbnail"].BackgroundTransparency = 1
+Converted["_Thumbnail"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Thumbnail"].BorderSizePixel = 0
+Converted["_Thumbnail"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Thumbnail"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Thumbnail"].Name = "Thumbnail"
+Converted["_Thumbnail"].Parent = Converted["_GameDetection"]
+
+Converted["_UICorner103"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner103"].Parent = Converted["_Thumbnail"]
+
+Converted["_Layer"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Layer"].BackgroundTransparency = 1
+Converted["_Layer"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Layer"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Layer"].Name = "Layer"
+Converted["_Layer"].Parent = Converted["_GameDetection"]
+
+Converted["_Run1"].Font = Enum.Font.Unknown
+Converted["_Run1"].Text = "Run"
+Converted["_Run1"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Run1"].TextSize = 16
+Converted["_Run1"].TextWrapped = true
+Converted["_Run1"].AnchorPoint = Vector2.new(1, 1)
+Converted["_Run1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Run1"].BackgroundTransparency = 0.5
+Converted["_Run1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Run1"].BorderSizePixel = 0
+Converted["_Run1"].Position = UDim2.new(1, -10, 1, -10)
+Converted["_Run1"].Size = UDim2.new(0, 70, 0, 32)
+Converted["_Run1"].ZIndex = 10
+Converted["_Run1"].Name = "Run"
+Converted["_Run1"].Parent = Converted["_Layer"]
+
+Converted["_UICorner104"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner104"].Parent = Converted["_Run1"]
+
+Converted["_UIStroke48"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+Converted["_UIStroke48"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke48"].Thickness = 1.2000000476837158
+Converted["_UIStroke48"].Parent = Converted["_Run1"]
+
+Converted["_ScriptSubtitle"].Font = Enum.Font.Unknown
+Converted["_ScriptSubtitle"].Text = "The most popular FPS shooter from the development team at ROLVe. Execute the script to get an unfair advantage."
+Converted["_ScriptSubtitle"].TextColor3 = Color3.fromRGB(240.0000160932541, 240.0000160932541, 240.0000160932541)
+Converted["_ScriptSubtitle"].TextSize = 14
+Converted["_ScriptSubtitle"].TextTransparency = 0.30000001192092896
+Converted["_ScriptSubtitle"].TextWrapped = true
+Converted["_ScriptSubtitle"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptSubtitle"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_ScriptSubtitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptSubtitle"].BackgroundTransparency = 1
+Converted["_ScriptSubtitle"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptSubtitle"].BorderSizePixel = 0
+Converted["_ScriptSubtitle"].Position = UDim2.new(0, 23, 0.561999977, 0)
+Converted["_ScriptSubtitle"].Size = UDim2.new(0, 274, 0, 44)
+Converted["_ScriptSubtitle"].ZIndex = 10
+Converted["_ScriptSubtitle"].Name = "ScriptSubtitle"
+Converted["_ScriptSubtitle"].Parent = Converted["_Layer"]
+
+Converted["_Close4"].Image = "rbxassetid://3926305904"
+Converted["_Close4"].ImageContent = Content
+Converted["_Close4"].ImageRectOffset = Vector2.new(924, 724)
+Converted["_Close4"].ImageRectSize = Vector2.new(36, 36)
+Converted["_Close4"].ImageTransparency = 0.6000000238418579
+Converted["_Close4"].AnchorPoint = Vector2.new(1, 0)
+Converted["_Close4"].BackgroundTransparency = 1
+Converted["_Close4"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Close4"].BorderSizePixel = 0
+Converted["_Close4"].Position = UDim2.new(1, -15, 0, 15)
+Converted["_Close4"].Size = UDim2.new(0, 18, 0, 18)
+Converted["_Close4"].ZIndex = 2
+Converted["_Close4"].Name = "Close"
+Converted["_Close4"].Parent = Converted["_Layer"]
+
+Converted["_ScriptTitle"].Font = Enum.Font.Unknown
+Converted["_ScriptTitle"].Text = "Arsenal"
+Converted["_ScriptTitle"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_ScriptTitle"].TextScaled = true
+Converted["_ScriptTitle"].TextSize = 14
+Converted["_ScriptTitle"].TextWrapped = true
+Converted["_ScriptTitle"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_ScriptTitle"].AnchorPoint = Vector2.new(0, 0.5)
+Converted["_ScriptTitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScriptTitle"].BackgroundTransparency = 1
+Converted["_ScriptTitle"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_ScriptTitle"].BorderSizePixel = 0
+Converted["_ScriptTitle"].Position = UDim2.new(0, 23, 0.351999998, 0)
+Converted["_ScriptTitle"].Size = UDim2.new(0, 274, 0, 21)
+Converted["_ScriptTitle"].ZIndex = 10
+Converted["_ScriptTitle"].Name = "ScriptTitle"
+Converted["_ScriptTitle"].Parent = Converted["_GameDetection"]
+
+Converted["_Warning"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Warning"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Warning"].Position = UDim2.new(0.000999987125, 0, 1.05466092, 0)
+Converted["_Warning"].Size = UDim2.new(0, 459, 0, 91)
+Converted["_Warning"].Visible = false
+Converted["_Warning"].Name = "Warning"
+Converted["_Warning"].Parent = Converted["_GameDetection"]
+
+Converted["_Subtitle14"].Font = Enum.Font.Unknown
+Converted["_Subtitle14"].Text = "This game was updated after our most recent patch. The script may be detected or not work correctly."
+Converted["_Subtitle14"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Subtitle14"].TextScaled = true
+Converted["_Subtitle14"].TextSize = 14
+Converted["_Subtitle14"].TextTransparency = 0.30000001192092896
+Converted["_Subtitle14"].TextWrapped = true
+Converted["_Subtitle14"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Subtitle14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle14"].BackgroundTransparency = 1
+Converted["_Subtitle14"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Subtitle14"].Position = UDim2.new(0.0468213484, 0, 0.427032977, 0)
+Converted["_Subtitle14"].Size = UDim2.new(0, 366, 0, 29)
+Converted["_Subtitle14"].Name = "Subtitle"
+Converted["_Subtitle14"].Parent = Converted["_Warning"]
+
+Converted["_UIGradient42"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(200.00000327825546, 44.000001177191734, 44.000001177191734))
+}
+Converted["_UIGradient42"].Offset = Vector2.new(0, -1)
+Converted["_UIGradient42"].Rotation = 250
+Converted["_UIGradient42"].Parent = Converted["_Warning"]
+
+Converted["_Title48"].Font = Enum.Font.Unknown
+Converted["_Title48"].Text = "Possible Detection"
+Converted["_Title48"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title48"].TextScaled = true
+Converted["_Title48"].TextSize = 14
+Converted["_Title48"].TextWrapped = true
+Converted["_Title48"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title48"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title48"].BackgroundTransparency = 1
+Converted["_Title48"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title48"].Position = UDim2.new(0.0469280556, 0, 0.24620676, 0)
+Converted["_Title48"].Size = UDim2.new(0, 365, 0, 17)
+Converted["_Title48"].Name = "Title"
+Converted["_Title48"].Parent = Converted["_Warning"]
+
+Converted["_UICorner105"].CornerRadius = UDim.new(0, 12)
+Converted["_UICorner105"].Parent = Converted["_Warning"]
+
+Converted["_Shadow19"].Image = "rbxassetid://3523728077"
+Converted["_Shadow19"].ImageColor3 = Color3.fromRGB(24.00000236928463, 24.00000236928463, 24.00000236928463)
+Converted["_Shadow19"].ImageContent = Content
+Converted["_Shadow19"].ImageTransparency = 0.699999988079071
+Converted["_Shadow19"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow19"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow19"].BackgroundTransparency = 1
+Converted["_Shadow19"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow19"].BorderSizePixel = 0
+Converted["_Shadow19"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow19"].Size = UDim2.new(0.933217704, 70, 1.26182342, 60)
+Converted["_Shadow19"].ZIndex = 0
+Converted["_Shadow19"].Name = "Shadow"
+Converted["_Shadow19"].Parent = Converted["_Warning"]
+
+Converted["_Shadow20"].Image = "rbxassetid://3523728077"
+Converted["_Shadow20"].ImageColor3 = Color3.fromRGB(24.00000236928463, 24.00000236928463, 24.00000236928463)
+Converted["_Shadow20"].ImageContent = Content
+Converted["_Shadow20"].ImageTransparency = 0.699999988079071
+Converted["_Shadow20"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Shadow20"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Shadow20"].BackgroundTransparency = 1
+Converted["_Shadow20"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Shadow20"].BorderSizePixel = 0
+Converted["_Shadow20"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Shadow20"].Size = UDim2.new(1.10434783, 0, 1.71428573, 0)
+Converted["_Shadow20"].ZIndex = 0
+Converted["_Shadow20"].Name = "Shadow"
+Converted["_Shadow20"].Parent = Converted["_GameDetection"]
+
+Converted["_SecurityPrompt"].AnchorPoint = Vector2.new(0.5, 0)
+Converted["_SecurityPrompt"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_SecurityPrompt"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_SecurityPrompt"].Position = UDim2.new(0.5, 0, 0, 80)
+Converted["_SecurityPrompt"].Size = UDim2.new(0, 576, 0, 181)
+Converted["_SecurityPrompt"].Visible = false
+Converted["_SecurityPrompt"].Name = "SecurityPrompt"
+Converted["_SecurityPrompt"].Parent = Converted["_Sirius"]
+
+Converted["_FoundLink"].Font = Enum.Font.Unknown
+Converted["_FoundLink"].Text = "Text"
+Converted["_FoundLink"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FoundLink"].TextSize = 16
+Converted["_FoundLink"].TextTransparency = 0.20000000298023224
+Converted["_FoundLink"].TextWrapped = true
+Converted["_FoundLink"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_FoundLink"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_FoundLink"].BackgroundTransparency = 1
+Converted["_FoundLink"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_FoundLink"].Position = UDim2.new(0.5, 0, 0.5, 6)
+Converted["_FoundLink"].Size = UDim2.new(0, 524, 0, 32)
+Converted["_FoundLink"].Name = "FoundLink"
+Converted["_FoundLink"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_UIGradient43"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(195.0000035762787, 78.00000295042992, 24.000000469386578))
+}
+Converted["_UIGradient43"].Offset = Vector2.new(0, 0.6499999761581421)
+Converted["_UIGradient43"].Rotation = 80
+Converted["_UIGradient43"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_Title49"].Font = Enum.Font.Unknown
+Converted["_Title49"].Text = "Text"
+Converted["_Title49"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Title49"].TextScaled = true
+Converted["_Title49"].TextSize = 14
+Converted["_Title49"].TextWrapped = true
+Converted["_Title49"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Title49"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title49"].BackgroundTransparency = 1
+Converted["_Title49"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Title49"].Position = UDim2.new(0.0428699926, 0, 0.100063853, 0)
+Converted["_Title49"].Size = UDim2.new(0, 389, 0, 17)
+Converted["_Title49"].Name = "Title"
+Converted["_Title49"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_UICorner106"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner106"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_Subtitle15"].Font = Enum.Font.Unknown
+Converted["_Subtitle15"].Text = "Text"
+Converted["_Subtitle15"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle15"].TextScaled = true
+Converted["_Subtitle15"].TextSize = 14
+Converted["_Subtitle15"].TextTransparency = 0.30000001192092896
+Converted["_Subtitle15"].TextWrapped = true
+Converted["_Subtitle15"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Subtitle15"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Subtitle15"].BackgroundTransparency = 1
+Converted["_Subtitle15"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Subtitle15"].Position = UDim2.new(0.0430000015, 0, 0.200000003, 0)
+Converted["_Subtitle15"].Size = UDim2.new(0, 389, 0, 28)
+Converted["_Subtitle15"].Name = "Subtitle"
+Converted["_Subtitle15"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_Buttons1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Buttons1"].BackgroundTransparency = 1
+Converted["_Buttons1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Buttons1"].BorderSizePixel = 0
+Converted["_Buttons1"].Position = UDim2.new(0.254999995, 0, 0.75, 0)
+Converted["_Buttons1"].Size = UDim2.new(0, 415, 0, 36)
+Converted["_Buttons1"].Name = "Buttons"
+Converted["_Buttons1"].Parent = Converted["_SecurityPrompt"]
+
+Converted["_Template11"].Font = Enum.Font.Unknown
+Converted["_Template11"].Text = "Text"
+Converted["_Template11"].TextColor3 = Color3.fromRGB(240.00000089406967, 240.00000089406967, 240.00000089406967)
+Converted["_Template11"].TextSize = 15
+Converted["_Template11"].TextTransparency = 0.05000000074505806
+Converted["_Template11"].BackgroundColor3 = Color3.fromRGB(100.00000163912773, 100.00000163912773, 100.00000163912773)
+Converted["_Template11"].BackgroundTransparency = 0.699999988079071
+Converted["_Template11"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Template11"].Position = UDim2.new(0.177156672, 0, 0, 0)
+Converted["_Template11"].Size = UDim2.new(0, 341, 0, 36)
+Converted["_Template11"].Name = "Template"
+Converted["_Template11"].Parent = Converted["_Buttons1"]
+
+Converted["_UICorner107"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner107"].Parent = Converted["_Template11"]
+
+Converted["_UIListLayout10"].Padding = UDim.new(0, 5)
+Converted["_UIListLayout10"].FillDirection = Enum.FillDirection.Horizontal
+Converted["_UIListLayout10"].HorizontalAlignment = Enum.HorizontalAlignment.Right
+Converted["_UIListLayout10"].SortOrder = Enum.SortOrder.LayoutOrder
+Converted["_UIListLayout10"].VerticalAlignment = Enum.VerticalAlignment.Center
+Converted["_UIListLayout10"].Parent = Converted["_Buttons1"]
